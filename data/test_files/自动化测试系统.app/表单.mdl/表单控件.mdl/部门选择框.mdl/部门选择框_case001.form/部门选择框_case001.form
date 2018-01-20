@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-6710-51fcf776-bb6a-ff15ffadffa1">
+    <name>部门选择框_case001</name>
+    <parentId>11e7-6704-af7526f9-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149987054507600000</sortId>
+    <templatecontext><![CDATA[<p>&nbsp;</p>
+<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6614-6adb377c-9cdb-af6bc8266ed2" type="text" name="部门选择框_名称" refreshonchanged="true" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="1" refreshfields="部门选择框_值设计" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿判断是否为部门选择框</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6615-c6f4396d-9cdb-af6bc8266ed2" type="text" name="部门选择框_显示只读" refreshonchanged="false" readonlyshowvalonly="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="readonly" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿显示设置为&ldquo;只读&rdquo;，有边框</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6615-d366909d-9cdb-af6bc8266ed2" type="text" name="部门选择框_显示隐藏" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="hidden" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿显示设置为&ldquo;隐藏&rdquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6618-eef855ce-9cdb-af6bc8266ed2" type="text" name="部门选择框_可选一级" refreshonchanged="true" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="0" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿可选一级部门</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6619-248e71f3-9cdb-af6bc8266ed2" type="text" name="部门选择框_上级联动" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="1" relatedfield="部门选择框_可选一级" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿与上级联动</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6619-562043ce-9cdb-af6bc8266ed2" type="text" name="部门选择框_当前下级部门" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="true" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿显示当前用户所属部门及下属部门</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6619-7b9335ef-9cdb-af6bc8266ed2" type="text" name="部门选择框_默认值第一个" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">默认值第一个部门</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6619-8b650bda-9cdb-af6bc8266ed2" type="text" name="部门选择框_默认值所属部门" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="256" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">默认值所属部门</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6615-fd617bdf-9cdb-af6bc8266ed2" type="text" name="部门选择框_刷新" refreshonchanged="true" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿验证刷新</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6616-063639ee-9cdb-af6bc8266ed2" type="text" name="部门选择框_重计算" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="true" mobile="true" valuescript="(function(){@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;var@nbsp;refresh_from@nbsp;=getItemValueAsString(@quot;部门选择框_刷新@quot;);@amp;#13;&#9;return@nbsp;refresh_from;@amp;#13;})()" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="readonly" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿验证重计算、值脚本<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6619-b7ef056a-9cdb-af6bc8266ed2" type="text" name="部门选择框_描述" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="部门选择框_描述" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding">描述﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6616-4944837e-9cdb-af6bc8266ed2" type="text" name="部门选择框_值设计" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="true" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="readonly" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="var@nbsp;doc=@nbsp;$CURRDOC.getCurrDoc();@amp;#13;(doc.getItemValueAsString(@#146;部门选择框_名称@#146;));" processdescription="[{@quot;text@quot;:@#146;部门选择框_名称@#146;,@quot;value@quot;:@#146;VALUE_TYPE_VARCHAR@#146;}];[部门选择框_名称]" validatelibs="" refreshmode="0" refreshfields="" editmode="00"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿验证值-设计=判断是否为用户选择框<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-67ce-157803a2-bb6a-ff15ffadffa1" type="text" name="部门选择框_值IsDefaultValue" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="true" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">验证值IsDefaultValue，没有去实现</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6616-5c79f701-9cdb-af6bc8266ed2" type="text" name="部门选择框_非空校验" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="true" discript="" filtercondition="" processdescription="[];[]" validatelibs="core.dynaform.form.formfield.validate.checkEmpty_system" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿校验非空<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6618-2a19c69f-9cdb-af6bc8266ed2" type="text" name="部门选择框_隐藏显示值" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="true;" hiddenvalue="控件已隐藏" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding" style="box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(99, 99, 101); cursor: pointer; outline: none; font-family: &quot;Microsoft YaHei&quot;, PingHei, &quot;Hiragino Sans GB&quot;, &quot;Lucida Grande&quot;, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">﻿</a><a id="fck_paste_padding">﻿</a><a id="fck_paste_padding">﻿隐藏时显示值</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6618-b99b249e-9cdb-af6bc8266ed2" type="text" name="部门选择框_打印时显示值" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="true;" printhiddenvalue="打印隐藏时显示值" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding" style="box-sizing: border-box; margin: 0px; padding: 0px; cursor: pointer; outline: 0px; font-family: &quot;Microsoft YaHei&quot;, PingHei, &quot;Hiragino Sans GB&quot;, &quot;Lucida Grande&quot;, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">打印隐藏时显示值</a><a id="fck_paste_padding" style="box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(99, 99, 101); cursor: pointer; outline: none; font-family: &quot;Microsoft YaHei&quot;, PingHei, &quot;Hiragino Sans GB&quot;, &quot;Lucida Grande&quot;, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">﻿</a><a id="fck_paste_padding" style="box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(99, 99, 101); cursor: pointer; outline: none; font-family: &quot;Microsoft YaHei&quot;, PingHei, &quot;Hiragino Sans GB&quot;, &quot;Lucida Grande&quot;, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">﻿</a><a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-6618-cf7ea0dd-9cdb-af6bc8266ed2" type="text" name="部门选择框_条件只读" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="true;" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="false" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding" style="box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(99, 99, 101); cursor: pointer; outline: none; font-family: &quot;Microsoft YaHei&quot;, PingHei, &quot;Hiragino Sans GB&quot;, &quot;Lucida Grande&quot;, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">﻿只读条件为true</a><a id="fck_paste_padding">﻿，无边框</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>18</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"部门选择框_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

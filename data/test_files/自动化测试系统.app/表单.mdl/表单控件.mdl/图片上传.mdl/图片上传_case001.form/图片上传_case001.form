@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-6708-347547e1-9f81-63911c9fa2cf">
+    <name>图片上传_case001</name>
+    <parentId>11e7-6703-e86d7678-9f81-63911c9fa2cf</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149986705955900000</sortId>
+    <templatecontext><![CDATA[<p><strong>&nbsp;图片上传控件表单</strong></p>
+<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/imageuploadfield/img.gif" classname="cn.myapps.core.dynaform.form.ejb.ImageUploadField" id="11e7-6704-f4e30c7c-9f81-63911c9fa2cf" type="imageupload" fieldtype="VALUE_TYPE_TEXT" imgh="100" imgw="100" limitsize="" opentype="dialog" name="图片上传_名称" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" refreshmode="0" refreshfields="" limitnumber="10" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">验证图片上传的类型</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/imageuploadfield/img.gif" classname="cn.myapps.core.dynaform.form.ejb.ImageUploadField" id="11e7-6705-0f3d43bd-9f81-63911c9fa2cf" type="imageupload" fieldtype="VALUE_TYPE_TEXT" imgh="80" imgw="80" limitsize="" opentype="dialog" name="图片上传控件_显示大小" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" refreshmode="0" refreshfields="" limitnumber="10" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">显示大小：高80px,宽80px</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/imageuploadfield/img.gif" classname="cn.myapps.core.dynaform.form.ejb.ImageUploadField" id="11e7-6705-32f713de-9f81-63911c9fa2cf" type="imageupload" fieldtype="VALUE_TYPE_TEXT" imgh="100" imgw="100" limitsize="50" opentype="dialog" name="图片上传控件_限制大小" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" refreshmode="0" refreshfields="" limitnumber="10" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿限制单个上传图片大小50kb</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/imageuploadfield/img.gif" classname="cn.myapps.core.dynaform.form.ejb.ImageUploadField" id="11e7-6705-6e80c6df-9f81-63911c9fa2cf" type="imageupload" fieldtype="VALUE_TYPE_TEXT" imgh="100" imgw="100" limitsize="" opentype="dialog" name="图片上传控件_最大上传数量" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" refreshmode="0" refreshfields="" limitnumber="1" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿最大上传数量设置为1个</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/imageuploadfield/img.gif" classname="cn.myapps.core.dynaform.form.ejb.ImageUploadField" id="11e7-6706-0468c8b2-9f81-63911c9fa2cf" type="imageupload" fieldtype="VALUE_TYPE_TEXT" imgh="100" imgw="100" limitsize="" opentype="dialog" name="图片上传_系统默认存放路径" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" refreshmode="0" refreshfields="" limitnumber="10" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿存放路径<a id="fck_paste_padding">﻿默认</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/imageuploadfield/img.gif" classname="cn.myapps.core.dynaform.form.ejb.ImageUploadField" id="11e7-6706-1b41a163-9f81-63911c9fa2cf" type="imageupload" fieldtype="VALUE_TYPE_TEXT" imgh="100" imgw="100" limitsize="" opentype="dialog" name="图片上传_自定义存放路径" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="01" filecatalog="/*/selenium*/" refreshmode="0" refreshfields="" limitnumber="10" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding">﻿存放路径自定义/*/selenium*/</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/imageuploadfield/img.gif" classname="cn.myapps.core.dynaform.form.ejb.ImageUploadField" id="11e7-6706-fe8ede30-9f81-63911c9fa2cf" type="imageupload" fieldtype="VALUE_TYPE_TEXT" imgh="100" imgw="100" limitsize="" opentype="dialog" name="图片上传_重计算" refreshonchanged="false" calculateonrefresh="true" readonlyshowvalonly="true" mobile="true" discript="" hiddenscript="(function(){@amp;#13;var@nbsp;rtn@nbsp;=@nbsp;getItemValue(@quot;图片上传_刷新@quot;);@nbsp;@amp;#13;var@nbsp;bool@nbsp;=@nbsp;false;@amp;#13;if(rtn@nbsp;!=null@nbsp;@amp;@amp;@nbsp;rtn.trim().length()@gt;0){@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;bool@nbsp;=@nbsp;true;@amp;#13;&#9;@nbsp;@nbsp;@nbsp;println(@quot;bool-----@gt;@gt;@quot;+bool);@amp;#13;}@amp;#13;return@nbsp;bool;@amp;#13;})()" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" refreshmode="0" refreshfields="" limitnumber="10" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">验证重计算+隐藏条件</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/imageuploadfield/img.gif" classname="cn.myapps.core.dynaform.form.ejb.ImageUploadField" id="11e7-6707-34aec3cd-9f81-63911c9fa2cf" type="imageupload" fieldtype="VALUE_TYPE_TEXT" imgh="100" imgw="100" limitsize="" opentype="dialog" name="图片上传_描述" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" discript="图片上传_描述测试" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" refreshmode="0" refreshfields="" limitnumber="10" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">验证描述</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/imageuploadfield/img.gif" classname="cn.myapps.core.dynaform.form.ejb.ImageUploadField" id="11e7-6707-ccb5d512-9f81-63911c9fa2cf" type="imageupload" fieldtype="VALUE_TYPE_TEXT" imgh="100" imgw="100" limitsize="" opentype="dialog" name="图片上传_刷新" refreshonchanged="true" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" refreshmode="0" refreshfields="图片上传_隐藏时显示值" limitnumber="10" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">验证刷新</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/imageuploadfield/img.gif" classname="cn.myapps.core.dynaform.form.ejb.ImageUploadField" id="11e7-6707-5688b05e-9f81-63911c9fa2cf" type="imageupload" fieldtype="VALUE_TYPE_TEXT" imgh="100" imgw="100" limitsize="" opentype="dialog" name="图片上传_隐藏时显示值" refreshonchanged="false" calculateonrefresh="true" readonlyshowvalonly="true" mobile="true" discript="" hiddenscript="true;" hiddenvalue="该控件已隐藏" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" refreshmode="0" refreshfields="" limitnumber="10" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">条件隐藏显示值</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/imageuploadfield/img.gif" classname="cn.myapps.core.dynaform.form.ejb.ImageUploadField" id="11e7-6707-8ffddb40-9f81-63911c9fa2cf" type="imageupload" fieldtype="VALUE_TYPE_TEXT" imgh="100" imgw="100" limitsize="" opentype="dialog" name="图片上传_打印时隐藏显示值" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="true;" printhiddenvalue="打印时隐藏" readonlyscript="" filepattern="00" filecatalog="" refreshmode="0" refreshfields="" limitnumber="10" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">打印隐藏显示值</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/imageuploadfield/img.gif" classname="cn.myapps.core.dynaform.form.ejb.ImageUploadField" id="11e7-6707-a272e4a1-9f81-63911c9fa2cf" type="imageupload" fieldtype="VALUE_TYPE_TEXT" imgh="100" imgw="100" limitsize="" opentype="dialog" name="图片上传_只读" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="true;" filepattern="00" filecatalog="" refreshmode="0" refreshfields="" limitnumber="10" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">条件只读</td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>6</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"图片上传_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

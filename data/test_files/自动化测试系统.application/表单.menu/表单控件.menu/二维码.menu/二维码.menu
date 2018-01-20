@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-6771-38697544-bb6a-ff15ffadffa1">
+    <name>二维码</name>
+    <parentId>11e7-5f9f-cc816447-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[二维码]]></description>
+    <multiLanguageLabel></multiLanguageLabel>
+    <type>00</type>
+    <opentarget>detail</opentarget>
+    <ico>{"icon":"/portal/H5/resource/images/icon_menu_default.png","icontype":"img"}</ico>
+    <superior>11e7-5f9f-cc816447-917f-e799edecb417</superior>
+    <linkName>二维码</linkName>
+    <linkType>00</linkType>
+    <moduleid>11e7-6705-279cbc6e-bb6a-ff15ffadffa1</moduleid>
+    <directory>portal</directory>
+    <actionContent><![CDATA[11e7-6713-366d1f9f-bb6a-ff15ffadffa1]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>23</orderno>
+</resourceVO>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-7022-86137304-966a-876161d2b77c">
+    <name>折叠在视图_列_流程回退标识</name>
+    <parentId>11e7-7019-c3709d61-966a-876161d2b77c</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>150086792387100000</sortId>
+    <templatecontext><![CDATA[<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <caption>折叠视图_列_流程回退标识</caption>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>单行文本框：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-620f-b712e663-991c-c72710268258" text="text" name="折叠视图_单行文本框" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;多行文本框：</p>
+            <p><textarea classname="cn.myapps.core.dynaform.form.ejb.TextareaField" id="11e7-621f-62706273-991c-c72710268258" name="折叠视图_多行文本框" readonlyshowvalonly="true" fieldtype="VALUE_TYPE_TEXT" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filtercondition="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" processdescription="[];[]" refreshmode="0" refreshfields=""></textarea></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>单选框：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.RadioField" id="11e7-621f-732bd4f6-991c-c72710268258" type="radio" name="折叠视图_单选框" discript="" valuescript="" optionsscript="@quot;男;女@quot;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" filtercondition="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" processdescription="[];[]" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>多选框：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-621f-8f0d4879-991c-c72710268258" type="checkbox" name="折叠视图_多选框" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="@quot;苹果;桃子;葡萄@quot;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>下拉框：</p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectField" id="11e7-621f-b89e4e0e-991c-c72710268258" name="折叠视图_下拉框" discript="" readonlyshowvalonly="true" valuescript="" optionsscript="@quot;;广州;上海;北京;深圳@quot;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>日期选择框：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.DateField" id="11e7-621f-c9c15c01-991c-c72710268258" type="text" fieldtype="VALUE_TYPE_DATE" name="折叠视图_视图选择框" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="YMD" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>部门选择框：</p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.DepartmentField" id="11e7-621f-e0fa7d26-991c-c72710268258" type="text" name="折叠视图_部门选择框" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="true" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>树形部门选择框：</p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-621f-f32696a7-991c-c72710268258" type="text" name="折叠视图_树形视图选择框" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="text" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>用户选择框：</p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.UserField" id="11e7-621f-fdd40c4a-991c-c72710268258" type="text" name="折叠视图_用户选择框" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" limitsum="10" fieldtype="VALUE_TYPE_TEXT" texttype="text" limitbyuser="false" isuserfield="true" filterfield="" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" refreshmode="0" refreshfields="" selectmode="multiSelect"></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>左右选择框：</p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-6220-32a5eddd-991c-c72710268258" name="折叠视图_左右选择框" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" optionsscript="@quot;佛山;广州;深圳;中山;东莞@quot;" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>智能提示选择框：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.SuggestField" type="text" id="11e7-6220-49061420-991c-c72710268258" name="折叠视图_智能提示选择框" discript="" valuescript="" optionsscript="@quot;aa;bb;cc;dd@quot;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>文件上传：</p>
+            <p><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.core.dynaform.form.ejb.AttachmentUploadField" id="11e7-6220-6a1a3fb1-991c-c72710268258" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="折叠视图_文件上传" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>图片上传：</p>
+            <p><img src="plugins/imageuploadfield/img.gif" classname="cn.myapps.core.dynaform.form.ejb.ImageUploadField" id="11e7-6220-748de0a2-991c-c72710268258" type="imageupload" fieldtype="VALUE_TYPE_TEXT" imgh="100" imgw="100" limitsize="" opentype="dialog" name="折叠视图_图片上传" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" refreshmode="0" refreshfields="" limitnumber="10" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>在线拍照：</p>
+            <p><img src="plugins/onlinetakephotofield/camera.png" classname="cn.myapps.core.dynaform.form.ejb.OnLineTakePhotoField" id="11e7-6220-7cf250a3-991c-c72710268258" type="onlinetakephoto" fieldtype="VALUE_TYPE_TEXT" name="折叠视图_在线拍照" imgh="100" imgw="100" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" readonlyscript="" printhiddenvalue="" calculateonrefresh="false" album="false" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>3</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"折叠在视图_列_流程回退标识","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

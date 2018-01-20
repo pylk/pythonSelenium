@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-6636-7aa1f215-8f1a-bfe936d3ae2a">
+    <name>所有审批人按顺序</name>
+    <parentId>11e7-67b9-45707d10-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[所有审批人按顺序]]></description>
+    <multiLanguageLabel></multiLanguageLabel>
+    <type>00</type>
+    <opentarget>detail</opentarget>
+    <ico>{"icon":"/portal/H5/resource/images/icon_menu_default.png","icontype":"img"}</ico>
+    <superior>11e7-67b9-45707d10-bb6a-ff15ffadffa1</superior>
+    <linkName>所有审批人按顺序</linkName>
+    <linkType>01</linkType>
+    <moduleid>11e7-6635-dbd839c1-8f1a-bfe936d3ae2a</moduleid>
+    <directory>portal</directory>
+    <actionContent><![CDATA[11e7-6636-32666ddf-8f1a-bfe936d3ae2a]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>0</orderno>
+</resourceVO>

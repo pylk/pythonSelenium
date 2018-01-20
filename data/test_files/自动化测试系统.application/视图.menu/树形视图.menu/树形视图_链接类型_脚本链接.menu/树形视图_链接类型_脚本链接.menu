@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-759a-824c965f-966a-876161d2b77c">
+    <name>树形视图_链接类型_脚本链接</name>
+    <parentId>11e7-6776-bbe1f934-9f81-63911c9fa2cf</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[树形视图_链接类型_脚本链接]]></description>
+    <type>00</type>
+    <superior>11e7-6776-bbe1f934-9f81-63911c9fa2cf</superior>
+    <linkName>树形视图_脚本链接</linkName>
+    <linkType>01</linkType>
+    <moduleid>11e7-6775-b396ac04-9f81-63911c9fa2cf</moduleid>
+    <actionContent><![CDATA[11e7-7591-c09b24b5-966a-876161d2b77c]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>0</orderno>
+</resourceVO>

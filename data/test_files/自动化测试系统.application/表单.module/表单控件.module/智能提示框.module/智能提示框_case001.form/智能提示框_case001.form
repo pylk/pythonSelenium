@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-670f-09bb0038-bb6a-ff15ffadffa1">
+    <name>智能提示框_case001</name>
+    <parentId>11e7-6705-40b0df20-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149986999435100000</sortId>
+    <templatecontext><![CDATA[<p style="text-align: center;">&nbsp; 表单测试用例-单选框</p>
+<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>名称：</p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-6777-1649be6a-bb6a-ff15ffadffa1" name="智能提示框_名称" discript="" valuescript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;智能提示框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">普通的智能提示框</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>显示只读：</p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-6790-a168a26f-bb6a-ff15ffadffa1" name="智能提示框_只读" discript="" valuescript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;智能提示框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="readonly" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿显示设置为&rdquo;只读&ldquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>﻿显示隐藏：<a id="fck_paste_padding">﻿</a></p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-6790-b1371cfc-bb6a-ff15ffadffa1" name="智能提示框_隐藏" discript="" valuescript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;智能提示框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="hidden" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿显示设置为&rdquo;隐藏&ldquo;<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>﻿刷新：<a id="fck_paste_padding">﻿</a></p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-6790-bcdb4ece-bb6a-ff15ffadffa1" name="智能提示框_刷新" discript="" valuescript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;智能提示框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="true" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">勾选&lsquo;刷新&rsquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;重计算：</p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-6790-d6500839-bb6a-ff15ffadffa1" name="智能提示框_重计算" discript="" valuescript="(function(){@amp;#13;&#9;var@nbsp;rtn@nbsp;=@nbsp;getItemValueAsString(@quot;智能提示框_刷新@quot;);@amp;#13;&#9;return@nbsp;rtn;@amp;#13;})()" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;智能提示框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="true" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;﻿勾选&lsquo;重计算&rsquo;<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;描述：</p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-6791-0e920966-bb6a-ff15ffadffa1" name="智能提示框_描述" discript="智能提示框_描述" valuescript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;智能提示框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;描述值验证</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>值脚本设计模式：</p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-67cf-6e206f72-bb6a-ff15ffadffa1" name="智能提示_值脚本设计模式" discript="" valuescript="" optionsscript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[{@quot;text@quot;:@#146;智能提示框_名称@#146;,@quot;value@quot;:@#146;VALUE_TYPE_VARCHAR@#146;}];[智能提示框_名称]" filtercondition="var@nbsp;doc=@nbsp;$CURRDOC.getCurrDoc();@amp;#13;(doc.getItemValueAsString(@#146;智能提示框_名称@#146;));" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="00" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;﻿值脚本设计模式<a id="fck_paste_padding">﻿﻿验证</a><a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;值脚本验证：</p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-6791-c7a704f6-bb6a-ff15ffadffa1" name="智能提示框_搜索方式动态" discript="" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;var@nbsp;sql=@quot;select@nbsp;item_真实值,item_显示值,domainid@nbsp;from@nbsp;tlk_选择框基表@quot;;@amp;#13;var@nbsp;datarts=queryBySQL(sql);@amp;#13;if(datarts!=null){@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;for(var@nbsp;iter=datarts.iterator();iter.hasNext();){@amp;#13;&#9;@nbsp;@nbsp;@nbsp;@nbsp;var@nbsp;docone=iter.next();@amp;#13;&#9;&#9;var@nbsp;name=docone.getItemValueAsString(@quot;真实值@quot;);@amp;#13;&#9;&#9;var@nbsp;loginno=docone.getItemValueAsString(@quot;显示值@quot;);@amp;#13;&#9;&#9;opts.add(loginno,name);@amp;#13;&#9;}@amp;#13;&#9;}@amp;#13;opts;@amp;#13;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="remote" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;搜索方式动态</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>值IsDefaultValue：</p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-67cf-b3922569-bb6a-ff15ffadffa1" name="智能提示_值IsDefalutValue" discript="" valuescript="" optionsscript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="true" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿值IsDefaultValue<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;选项脚本设计模式：</p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-6777-d2194516-bb6a-ff15ffadffa1" name="智能提示框_选项设计" discript="" valuescript="" optionsscript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="00" dialogview="11e7-65fc-33a47841-8f1a-bfe936d3ae2a" module="11e7-6167-730d0ba3-991c-c72710268258" optionsvalue="11e7-65fc-33a47842-8f1a-bfe936d3ae2a" optionstext="11e7-65fc-33a47843-8f1a-bfe936d3ae2a" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;﻿选项脚本设计模式<a id="fck_paste_padding">﻿验证</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>﻿选项脚本：<a id="fck_paste_padding">﻿</a></p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-67d0-0df86396-bb6a-ff15ffadffa1" name="智能提示_选项脚本" discript="" valuescript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;智能提示框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿选项脚本<a id="fck_paste_padding">﻿验证</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;非空校验：</p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-6777-aec7fac5-bb6a-ff15ffadffa1" name="智能提示框_非空校验" discript="" valuescript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;智能提示框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="core.dynaform.form.formfield.validate.checkEmpty_system" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;﻿非空校验<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;﻿隐藏时显示值：<a id="fck_paste_padding">﻿</a></p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-6777-7c54c9b3-bb6a-ff15ffadffa1" name="智能提示框_隐藏时显示值" discript="" valuescript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;智能提示框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" validaterule="" hiddenscript="true;" hiddenvalue="控件已隐藏" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;隐藏时显示值：控件已隐藏</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;﻿打印隐藏时显示值：<a id="fck_paste_padding">﻿</a></p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-6777-4393ac61-bb6a-ff15ffadffa1" name="智能提示框_打印隐藏时显示值" discript="" valuescript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;智能提示框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;智能提示框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="true;" printhiddenvalue="打印隐藏时显示值" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding" style="box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(99, 99, 101); cursor: pointer; outline: none; font-family: &quot;Microsoft YaHei&quot;, PingHei, &quot;Hiragino Sans GB&quot;, &quot;Lucida Grande&quot;, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">打印隐藏时显示值﻿</a><a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;﻿只读条件：<a id="fck_paste_padding">﻿</a></p>
+            <p><input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-6777-249170e0-bb6a-ff15ffadffa1" name="智能提示框_只读条件" discript="" valuescript="" optionsscript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="true;" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿只读条件为&rsquo;true&lsquo;&nbsp;<a id="fck_paste_padding">﻿</a>&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <showWaterMark>false</showWaterMark>
+    <version>32</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"智能提示框_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

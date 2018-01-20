@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-679e-201ec365-bb6a-ff15ffadffa1">
+    <name>摘要表单</name>
+    <parentId>11e7-679d-efad55c1-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149993144994700000</sortId>
+    <templatecontext><![CDATA[<p>&nbsp;</p>
+<table width="600" align="center" cellpadding="1" cellspacing="1">
+    <tbody>
+        <tr>
+            <td colspan="2" style="text-align: center;">摘要信息</td>
+        </tr>
+        <tr>
+            <td>标题：</td>
+            <td><input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-679e-e66f591d-bb6a-ff15ffadffa1" text="text" name="标题" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></td>
+        </tr>
+        <tr>
+            <td>内容：</td>
+            <td><input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-679e-ef5925f6-bb6a-ff15ffadffa1" text="text" name="内容" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>2</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"摘要表单","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

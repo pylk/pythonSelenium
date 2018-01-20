@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-6624-a0a84ef2-8f1a-bfe936d3ae2a">
+    <name>并行默认选中</name>
+    <parentId>11e7-67b9-0744808d-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[并行默认选中]]></description>
+    <multiLanguageLabel></multiLanguageLabel>
+    <type>00</type>
+    <opentarget>detail</opentarget>
+    <ico>{"icon":"/portal/H5/resource/images/icon_menu_default.png","icontype":"img"}</ico>
+    <superior>11e7-67b9-0744808d-bb6a-ff15ffadffa1</superior>
+    <linkName>并行默认选中</linkName>
+    <linkType>01</linkType>
+    <moduleid>11e7-6623-249a9b42-8f1a-bfe936d3ae2a</moduleid>
+    <directory>portal</directory>
+    <actionContent><![CDATA[11e7-6b85-7db696c4-a461-afe7c10bb740]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>0</orderno>
+</resourceVO>

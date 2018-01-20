@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-7044-b69340d0-966a-876161d2b77c">
+    <name>折叠视图_列_格式类型_数值_小数位千分位</name>
+    <parentId>11e7-7042-5348506c-966a-876161d2b77c</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[折叠视图_列_格式类型_数值_小数位千分位]]></description>
+    <type>00</type>
+    <superior>11e7-7042-5348506c-966a-876161d2b77c</superior>
+    <linkName>折叠视图_列_格式类型_数值_小数位千分位</linkName>
+    <linkType>01</linkType>
+    <moduleid>11e7-7019-c3709d61-966a-876161d2b77c</moduleid>
+    <actionContent><![CDATA[11e7-703d-81638beb-966a-876161d2b77c]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>0</orderno>
+</resourceVO>

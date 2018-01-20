@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pageWidget id="11e7-67a0-5e66e788-bb6a-ff15ffadffa1">
+    <name>链接内容</name>
+    <parentId>11e7-5f98-d7d66840-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <type>page</type>
+    <moduleid></moduleid>
+    <actionContent><![CDATA[../dynaform/document/newWithPermission.action?_formid=11e7-65fc-2e4e329c-8f1a-bfe936d3ae2a&_isJump=1&application=11e7-5f98-d7d66840-917f-e799edecb417&_resourceid=11e6-5ead-c5433cfb-b0f0-d3a532217234]]></actionContent>
+    <width></width>
+    <height></height>
+    <authMode>0</authMode>
+    <authRolesId></authRolesId>
+    <authRolesName></authRolesName>
+    <published>true</published>
+    <icon>{"icon":"/uploads/lib/icon//_H5_small_icon/H5-widget-icon03.png","icontype":"img"}</icon>
+    <titleColor>#000</titleColor>
+    <titleBColor></titleBColor>
+    <iconShow>false</iconShow>
+    <widgetType>0</widgetType>
+    <orderno>3</orderno>
+</pageWidget>

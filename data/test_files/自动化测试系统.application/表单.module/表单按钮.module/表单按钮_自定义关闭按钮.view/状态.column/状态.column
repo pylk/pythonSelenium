@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<column id="11e7-687f-56f791c9-8a83-bf38d96990bd">
+    <name>状态</name>
+    <parentId>11e7-72b2-731bb443-966a-876161d2b77c</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <parentView>11e7-72b2-731bb443-966a-876161d2b77c</parentView>
+    <type>COLUMN_TYPE_FIELD</type>
+    <formid>11e7-687a-b2f8385c-8a83-bf38d96990bd</formid>
+    <fieldName>状态</fieldName>
+    <flowReturnCss>false</flowReturnCss>
+    <orderno>1</orderno>
+    <sum>false</sum>
+    <total>false</total>
+    <isOrderByField>false</isOrderByField>
+    <clickSorting>true</clickSorting>
+    <thouSign>false</thouSign>
+    <color>000000</color>
+    <fontSize>12</fontSize>
+    <groundColor>FFFFFF</groundColor>
+    <showIcon>false</showIcon>
+    <iconMapping></iconMapping>
+    <visible>true</visible>
+    <visible4ExpExcel>true</visible4ExpExcel>
+    <visible4Print>true</visible4Print>
+    <visible4PagePrint>true</visible4PagePrint>
+    <showType>01</showType>
+    <displayType>00</displayType>
+    <displayLength>-1</displayLength>
+    <showTitle>true</showTitle>
+</column>

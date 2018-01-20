@@ -1,0 +1,14 @@
+异常信息：
+raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+原因：选择器不合法，根据这个选择器无法在dom中找到匹配的元素
+
+异常信息：
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+原因：元素不可见。元素隐藏了或还没显示出来；
+
+
+#异常信息  2017-07-08 验证第二次打开日期弹出时发现
+element is not attached to the page document
+ 原因是：此种问题通常是因为元素页面刷新之后，为重新获取元素导致的
+ 

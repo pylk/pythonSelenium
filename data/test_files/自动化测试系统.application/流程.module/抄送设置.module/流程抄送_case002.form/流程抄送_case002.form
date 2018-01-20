@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-6b84-010773aa-a461-afe7c10bb740">
+    <name>流程抄送_case002</name>
+    <parentId>11e7-6213-bf65ccf7-991c-c72710268258</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>150036003552100000</sortId>
+    <templatecontext><![CDATA[<p>&nbsp;请假单：</p>
+<table width="80%" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">请假原因：</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><textarea classname="cn.myapps.runtime.dynaform.form.ejb.TextareaField" id="11e7-6619-cde06435-8f1a-bfe936d3ae2a" name="请假原因" readonlyshowvalonly="true" fieldtype="VALUE_TYPE_TEXT" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filtercondition="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" processdescription="[];[]" refreshmode="0" refreshfields=""></textarea></td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>]]></templatecontext>
+    <discription>通过iscript脚本、允许当前流程执行人指定抄送人；</discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <showWaterMark>false</showWaterMark>
+    <version>1</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"流程抄送_case002","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

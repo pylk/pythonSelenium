@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-6712-3f053e73-bb6a-ff15ffadffa1">
+    <name>在线拍照_case001</name>
+    <parentId>11e7-6705-1fee55fd-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149987137224700000</sortId>
+    <templatecontext><![CDATA[<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <caption>表单测试用例-在线拍照</caption>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>名称：</p>
+            <p><img src="plugins/onlinetakephotofield/camera.png" classname="cn.myapps.core.dynaform.form.ejb.OnLineTakePhotoField" id="11e7-6711-90dd8197-bb6a-ff15ffadffa1" type="onlinetakephoto" fieldtype="VALUE_TYPE_TEXT" name="在线拍照_名称" imgh="100" imgw="100" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" readonlyscript="" printhiddenvalue="" calculateonrefresh="false" album="false" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">普通的在线拍照</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>大小：</p>
+            <p><img src="plugins/onlinetakephotofield/camera.png" classname="cn.myapps.core.dynaform.form.ejb.OnLineTakePhotoField" id="11e7-6711-a3cf0e03-bb6a-ff15ffadffa1" type="onlinetakephoto" fieldtype="VALUE_TYPE_TEXT" name="在线拍照_大小" imgh="200" imgw="200" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" readonlyscript="" printhiddenvalue="" calculateonrefresh="false" album="false" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">大小：宽200px，高200px</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>重计算：<input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-6706-f4d58cbb-bb6a-ff15ffadffa1" text="text" name="单行文本刷新" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></p>
+            <p><img src="plugins/onlinetakephotofield/camera.png" classname="cn.myapps.core.dynaform.form.ejb.OnLineTakePhotoField" id="11e7-6711-bde6be0f-bb6a-ff15ffadffa1" type="onlinetakephoto" fieldtype="VALUE_TYPE_TEXT" name="在线拍照_重计算" imgh="100" imgw="100" discript="" hiddenscript="(function(){&#9;@amp;#13;&#9;var@nbsp;item1@nbsp;=@nbsp;getItemValueAsString(@quot;单行文本刷新@quot;)@amp;#13;&#9;var@nbsp;rtn@nbsp;=@nbsp;false;@amp;#13;&#9;if(@quot;hide@quot;.equals(item1)){@amp;#13;&#9;&#9;rtn@nbsp;=@nbsp;true;@amp;#13;&#9;}@amp;#13;&#9;return@nbsp;rtn;@amp;#13;})();" hiddenvalue="" hiddenprintscript="" readonlyscript="" printhiddenvalue="" calculateonrefresh="true" album="false" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">单行文本刷新时，在线拍照重计算</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>描述：</p>
+            <p><img src="plugins/onlinetakephotofield/camera.png" classname="cn.myapps.core.dynaform.form.ejb.OnLineTakePhotoField" id="11e7-6711-ca8afaab-bb6a-ff15ffadffa1" type="onlinetakephoto" fieldtype="VALUE_TYPE_TEXT" name="在线拍照_描述" imgh="100" imgw="100" discript="在线拍照_描述描述" hiddenscript="" hiddenvalue="" hiddenprintscript="" readonlyscript="" printhiddenvalue="" calculateonrefresh="false" album="false" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">描述</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>隐藏时显示值：</p>
+            <p><img src="plugins/onlinetakephotofield/camera.png" classname="cn.myapps.core.dynaform.form.ejb.OnLineTakePhotoField" id="11e7-6711-e6910d42-bb6a-ff15ffadffa1" type="onlinetakephoto" fieldtype="VALUE_TYPE_TEXT" name="在线拍照_隐藏时显示值" imgh="100" imgw="100" discript="" hiddenscript="true" hiddenvalue="该控件已隐藏" hiddenprintscript="" readonlyscript="" printhiddenvalue="" calculateonrefresh="false" album="false" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">隐藏时显示值为&quot;隐藏时显示值&quot;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>打印隐藏时显示值：</p>
+            <p><img src="plugins/onlinetakephotofield/camera.png" classname="cn.myapps.core.dynaform.form.ejb.OnLineTakePhotoField" id="11e7-6711-fd1c894e-bb6a-ff15ffadffa1" type="onlinetakephoto" fieldtype="VALUE_TYPE_TEXT" name="在线拍照_打印隐藏时显示值" imgh="100" imgw="100" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="true" readonlyscript="" printhiddenvalue="打印隐藏时显示值" calculateonrefresh="false" album="false" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">打印隐藏时显示值为&quot;打印隐藏时显示值&quot;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>只读条件：</p>
+            <p><img src="plugins/onlinetakephotofield/camera.png" classname="cn.myapps.core.dynaform.form.ejb.OnLineTakePhotoField" id="11e7-6712-09cb744a-bb6a-ff15ffadffa1" type="onlinetakephoto" fieldtype="VALUE_TYPE_TEXT" name="在线拍照_只读条件" imgh="100" imgw="100" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" readonlyscript="true" printhiddenvalue="" calculateonrefresh="false" album="false" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">只读条件</td>
+        </tr>
+    </tbody>
+</table>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>8</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"在线拍照_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

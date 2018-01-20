@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<summaryCfgVO id="11e7-687e-f8533541-8a83-bf38d96990bd">
+    <name>表单按钮_待办</name>
+    <parentId>11e7-687e-bfda44a1-8a83-bf38d96990bd</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <title>表单按钮_待办</title>
+    <type>00</type>
+    <formId>11e7-687e-bfda44a1-8a83-bf38d96990bd</formId>
+    <fieldNames>单行文本</fieldNames>
+    <summaryScript><![CDATA[]]></summaryScript>
+    <scope>0</scope>
+</summaryCfgVO>

@@ -1,0 +1,213 @@
+import unittest
+import time
+from test_case.models.app import AppTest
+from test_case.models import component
+from test_case.page_obj.process_approver_page import Process_approver_Page
+#引入鼠标操作类
+from selenium.webdriver.common.action_chains import ActionChains
+#引入登陆操作类
+from test_case.page_obj.login_page import LoginPage
+#引入
+from test_case.page_obj.main_page import MainPage
+
+class Process_approver_test(component.ComponentTest):
+    menu1 = '流程'
+    menu2 = '审批人设置'  # 主页打开菜单时使用
+    menu3 = ''
+
+    def againopenmenu(self):
+        mp = MainPage (self.driver)
+        if self.menu1 != '':
+            mp.open_menu (self.menu1)
+        time.sleep (0.3)
+        if self.menu2 != '':
+            mp.open_menu (self.menu2)
+        if self.menu3 != '':
+            mp.open_menu (self.menu3)
+        time.sleep (0.3)
+        mp.switch_to_iframe ()
+        
+    def lilingnew(self):
+        
+
+    def test_approver_organization_case(self):
+        '''流程审批人for组织形式'''
+        name = "流程审批人设置_通过组织"
+        self.driver.implicitly_wait (10)
+        comp = Process_approver_Page(self.driver)
+        # 判断是否要删除记录
+        comp.Judge_delete (name)
+
+        ##########李玲新建单据#######333333
+        #点击新建进入表单
+        comp.btnfornew()
+        #录入请假原因
+        comp.Send_key(name)
+        #点击提交按钮
+        comp.btnforflow_process()
+        #点击指定审批人选择框
+        self.driver.find_element_by_css_selector('span.flowToPerson>img').click()
+        # 回到主文档，没有iframe
+        self.driver.switch_to.default_content ()
+        #切到指定审批人iframe
+        comp.switchto_DesignatedApprover()
+        #勾选审批人伟强
+        self.driver.find_element_by_css_selector('div#rightcontent>div:nth-child(2)>input').click()
+        self.driver.find_element_by_css_selector('input#doReturn').click()
+        # 返回到表单所在的iframe
+        comp.switch_to_formiframe ()
+        #点击确认提交
+        comp.submit()
+        time.sleep(0.5)
+        ############################
+        #再次相应记录
+        comp.again_OpenRecord(name)
+        #获取流程状态的处理人
+        text = comp.Get_approver()
+        #断言
+        self.assertEqual('伟强',text,msg=name+"检验不通过")
+
+    def test_approver_role_case(self):
+        '''流程审批人for角色形式'''
+        name = "流程审批人设置_通过角色"
+        self.driver.implicitly_wait (10)
+        comp = Process_approver_Page(self.driver)
+        # 判断是否要删除记录
+        comp.Judge_delete (name)
+        ##########李玲新建单据#######333333
+        #点击新建进入表单
+        comp.btnfornew()
+        #录入请假原因
+        comp.Send_key(name)
+        #点击提交按钮
+        comp.btnforflow_process()
+        #点击指定审批人选择框
+        self.driver.find_element_by_css_selector('span.flowToPerson>img').click()
+        # 回到主文档，没有iframe
+        self.driver.switch_to.default_content ()
+        #切到指定审批人iframe
+        comp.switchto_DesignatedApprover()
+        #勾选审批人伟强
+        self.driver.find_element_by_css_selector('div#rightcontent>div:nth-child(2)>input').click()
+        self.driver.find_element_by_css_selector('input#doReturn').click()
+        # 返回到表单所在的iframe
+        comp.switch_to_formiframe ()
+        #点击确认提交
+        comp.submit()
+        time.sleep(0.5)
+        ##########退出登陆#######333333
+        # 回到主文档，没有iframe
+        self.driver.switch_to.default_content ()
+        #退出登陆
+        comp.logout()
+        ###########伟强审批当前表单
+        po = LoginPage (self.driver)
+        po.user_login ('weiqiang', '123456')
+        #打开菜单
+        login2 = Process_approver_test()
+        login2.againopenmenu()
+        # 再次打开相应记录
+        comp.again_OpenRecord (name)
+        # 点击提交按钮
+        comp.btnforflow_process ()
+        # 点击确认提交
+        comp.submit ()
+        time.sleep (1)
+
+        # 再次打开相应记录获取流程状态的处理人##################
+        time.sleep(0.5)
+        comp.again_OpenRecord (name)
+        # 获取流程状态的处理人
+        text = comp.Get_approver ()
+        #############################################33
+        # 断言
+        self.assertEqual ('张强', text, msg=name + "检验不通过")
+
+
+    def test_approver_iscript_case(self):
+        '''流程审批人for_iscript形式'''
+        name = "流程审批人设置_通过iscript形式"
+        self.driver.implicitly_wait (10)
+        comp = Process_approver_Page(self.driver)
+        # 判断是否要删除记录
+        comp.Judge_delete (name)
+        ##########李玲新建单据#######333333
+        #点击新建进入表单
+        comp.btnfornew()
+        #录入请假原因
+        comp.Send_key(name)
+        #点击提交按钮
+        comp.btnforflow_process()
+        #点击指定审批人选择框
+        self.driver.find_element_by_css_selector('span.flowToPerson>img').click()
+        # 回到主文档，没有iframe
+        self.driver.switch_to.default_content ()
+        #切到指定审批人iframe
+        comp.switchto_DesignatedApprover()
+        #勾选审批人伟强
+        self.driver.find_element_by_css_selector('div#rightcontent>div:nth-child(2)>input').click()
+        self.driver.find_element_by_css_selector('input#doReturn').click()
+        # 返回到表单所在的iframe
+        comp.switch_to_formiframe ()
+        #点击确认提交
+        time.sleep(0.5)
+        comp.submit()
+        time.sleep(0.5)
+        ##########退出登陆#######333333
+        # 回到主文档，没有iframe
+        self.driver.switch_to.default_content ()
+        # 退出登陆
+        comp.logout()
+        #切换账号登陆
+        ###########伟强审批当前表单
+        po = LoginPage (self.driver)
+        po.user_login ('weiqiang', '123456')
+        #打开菜单
+        login2 = Process_approver_test()
+        login2.againopenmenu()
+        # 再次打开相应记录
+        comp.again_OpenRecord (name)
+        time.sleep(0.5)
+        # 点击提交按钮
+        comp.btnforflow_process ()
+        # 点击确认提交
+        comp.submit ()
+        time.sleep (1)
+        ##########退出登陆#######333333
+        # 回到主文档，没有iframe
+        self.driver.switch_to.default_content ()
+        # 退出登陆
+        comp.logout ()
+        ###########张强审批当前表单
+        po = LoginPage (self.driver)
+        po.user_login ('zhangqiang', '123456')
+        # 打开菜单
+        login2 = Process_approver_test ()
+        login2.againopenmenu ()
+        # 再次打开相应记录
+        comp.again_OpenRecord (name)
+        time.sleep (1)
+        # 点击提交按钮
+        comp.btnforflow_process ()
+        # 点击确认提交
+        comp.submit ()
+        time.sleep (1)
+
+        # 再次打开相应记录
+        comp.again_OpenRecord (name)
+        time.sleep (1)
+        bool = self.driver.find_element_by_css_selector ('div#flow-panel>div.flow-status').get_attribute('display')
+        self.assertIsNone(bool,msg=name + "检验不通过")
+
+
+
+
+    def init(self):
+        self.test_approver_organization_case()
+        self.test_approver_role_case()
+        self.test_approver_iscript_case()
+
+
+if __name__ == '__main__':
+    unittest.main()
+

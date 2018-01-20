@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<view id="11e7-6638-6c3c91c7-9cdb-af6bc8266ed2">
+    <name>地图视图_case001</name>
+    <parentId>11e7-6638-3cb4e8d3-9cdb-af6bc8266ed2</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[]]></description>
+    <filterScript><![CDATA[]]></filterScript>
+    <sqlFilterScript><![CDATA[]]></sqlFilterScript>
+    <procedureFilterScript><![CDATA[]]></procedureFilterScript>
+    <openType>1</openType>
+    <pagination>false</pagination>
+    <editMode>00</editMode>
+    <filterCondition><![CDATA[[]]]></filterCondition>
+    <commonFilterCondition><![CDATA[[]]]></commonFilterCondition>
+    <showTotalRow>true</showTotalRow>
+    <relatedForm>11e7-6638-60dedf2f-9cdb-af6bc8266ed2</relatedForm>
+    <templateForm></templateForm>
+    <refresh>false</refresh>
+    <lastmodifytime>2017-07-11T00:00:00+08:00</lastmodifytime>
+    <readonly>false</readonly>
+    <viewType>18</viewType>
+    <relatedMap><![CDATA[{}]]></relatedMap>
+    <innerType>FORM</innerType>
+    <nodeLinkId></nodeLinkId>
+    <displayType>relatedForm</displayType>
+    <country>中国</country>
+    <province>广东省</province>
+    <city>广州市</city>
+    <town>荔湾区</town>
+    <level>14</level>
+    <isroute>false</isroute>
+    <authorityCondition></authorityCondition>
+    <permissionType>public</permissionType>
+</view>

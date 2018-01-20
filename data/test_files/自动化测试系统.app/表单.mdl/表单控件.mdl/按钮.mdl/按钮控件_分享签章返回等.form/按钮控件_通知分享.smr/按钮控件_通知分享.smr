@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<summaryCfgVO id="11e7-6881-e4e6a50b-8a83-bf38d96990bd">
+    <name>按钮控件_通知分享</name>
+    <parentId>11e7-6881-d4e2e9b6-8a83-bf38d96990bd</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <title>按钮控件_通知分享</title>
+    <type>00</type>
+    <formId>11e7-6881-d4e2e9b6-8a83-bf38d96990bd</formId>
+    <fieldNames>单行文本</fieldNames>
+    <summaryScript><![CDATA[]]></summaryScript>
+    <scope>1</scope>
+</summaryCfgVO>

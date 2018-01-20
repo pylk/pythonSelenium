@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-6882-f2709178-8a83-bf38d96990bd">
+    <name>按钮控件_自定义跳转</name>
+    <parentId>11e7-661c-36042c58-9cdb-af6bc8266ed2</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[按钮控件_自定义跳转]]></description>
+    <multiLanguageLabel></multiLanguageLabel>
+    <type>00</type>
+    <opentarget>detail</opentarget>
+    <ico>{"icon":"/portal/H5/resource/images/icon_menu_default.png","icontype":"img"}</ico>
+    <superior>11e7-661c-36042c58-9cdb-af6bc8266ed2</superior>
+    <linkName>按钮控件_自定义跳转</linkName>
+    <linkType>00</linkType>
+    <moduleid>11e7-67a6-d51b2f7f-bb6a-ff15ffadffa1</moduleid>
+    <directory>portal</directory>
+    <actionContent><![CDATA[11e7-6882-385b15d9-8a83-bf38d96990bd]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>14</orderno>
+</resourceVO>

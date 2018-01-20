@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pageWidget id="11e7-67cd-728d78c4-bb6a-ff15ffadffa1">
+    <name>授权方式-自动化组长可见</name>
+    <parentId>11e7-5f98-d7d66840-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <type>view</type>
+    <moduleid>11e7-6167-730d0ba3-991c-c72710268258</moduleid>
+    <actionContent><![CDATA[11e7-65fc-33a47841-8f1a-bfe936d3ae2a]]></actionContent>
+    <width></width>
+    <height></height>
+    <authMode>1</authMode>
+    <authRolesId>11e7-5f9b-5d9980cd-917f-e799edecb417</authRolesId>
+    <authRolesName>自动化测试组长;</authRolesName>
+    <published>true</published>
+    <icon>{"icon":"if-lib icon-xinwenxinxi","icontype":"font","iconFontColor":"#000"}</icon>
+    <titleColor>#000</titleColor>
+    <titleBColor></titleBColor>
+    <iconShow>false</iconShow>
+    <widgetType>1</widgetType>
+    <orderno>1</orderno>
+</pageWidget>

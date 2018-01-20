@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pageWidget id="11e7-67cb-5ea2d0c3-bb6a-ff15ffadffa1">
+    <name>时效报表_icon</name>
+    <parentId>11e7-5f98-d7d66840-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <type>report</type>
+    <moduleid>11e7-6616-260fe9cd-9cdb-af6bc8266ed2</moduleid>
+    <actionContent><![CDATA[/portal/share/report/standardreport/query.jsp]]></actionContent>
+    <width></width>
+    <height></height>
+    <authMode>0</authMode>
+    <authRolesId></authRolesId>
+    <authRolesName></authRolesName>
+    <published>true</published>
+    <icon>{"icon":"if-lib icon-xinwenxinxi","icontype":"font","iconFontColor":"#000"}</icon>
+    <titleColor>#000</titleColor>
+    <titleBColor></titleBColor>
+    <iconShow>true</iconShow>
+    <widgetType>0</widgetType>
+    <orderno>4</orderno>
+</pageWidget>

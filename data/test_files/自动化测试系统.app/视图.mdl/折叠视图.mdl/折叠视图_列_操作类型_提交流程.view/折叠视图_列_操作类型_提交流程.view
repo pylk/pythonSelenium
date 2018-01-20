@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<view id="11e7-703d-6d28dddc-966a-876161d2b77c">
+    <name>折叠视图_列_操作类型_提交流程</name>
+    <parentId>11e7-7019-c3709d61-966a-876161d2b77c</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[]]></description>
+    <filterScript><![CDATA[]]></filterScript>
+    <sqlFilterScript><![CDATA[]]></sqlFilterScript>
+    <procedureFilterScript><![CDATA[]]></procedureFilterScript>
+    <openType>1</openType>
+    <pagination>false</pagination>
+    <editMode>00</editMode>
+    <filterCondition><![CDATA[[]]]></filterCondition>
+    <commonFilterCondition><![CDATA[[]]]></commonFilterCondition>
+    <showTotalRow>true</showTotalRow>
+    <relatedForm>11e7-7024-c6de7247-966a-876161d2b77c</relatedForm>
+    <templateForm></templateForm>
+    <refresh>false</refresh>
+    <lastmodifytime>2017-07-24T00:00:00+08:00</lastmodifytime>
+    <readonly>false</readonly>
+    <viewType>20</viewType>
+    <relatedMap><![CDATA[]]></relatedMap>
+    <innerType>FORM</innerType>
+    <nodeLinkId></nodeLinkId>
+    <displayType>relatedForm</displayType>
+    <country></country>
+    <province></province>
+    <city></city>
+    <town></town>
+    <level>4</level>
+    <isroute>false</isroute>
+    <authorityCondition></authorityCondition>
+    <permissionType>public</permissionType>
+</view>

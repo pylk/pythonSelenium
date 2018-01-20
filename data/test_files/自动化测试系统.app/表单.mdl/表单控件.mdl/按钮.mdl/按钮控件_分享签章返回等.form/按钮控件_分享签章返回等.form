@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-6881-d4e2e9b6-8a83-bf38d96990bd">
+    <name>按钮控件_分享签章返回等</name>
+    <parentId>11e7-67a6-d51b2f7f-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>150002924898000000</sortId>
+    <templatecontext><![CDATA[<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <caption>按钮测试用例-保存类</caption>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>名称：<input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-687f-f8719ca3-8a83-bf38d96990bd" text="text" name="单行文本" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">普通的单行文本</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);" colspan="2"><br type="_moz" />
+            <input classname="cn.myapps.core.dynaform.form.ejb.ButtonField" id="11e7-6880-e10d30aa-8a83-bf38d96990bd" type="button" value="保存" name="保存" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" calculateonrefresh="false" mobile="true" filenamescript="" statetoshow="" approvelimit="" beforeactionscript="" afteractionscript="" dispatcherurl="" dispatchermode="0" dispatcherparams="" acttype="34" actionview="" actionform="" actionflow="" transpond="" actionprint="" jumptype="0" jumpmode="0" jumpactopentype="0" targetlist="" flowmode="2" withold="false" startflowscript="" flowshowtype="ST01" refreshmode="0" refreshfields="" impmappingconfigid="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input classname="cn.myapps.core.dynaform.form.ejb.ButtonField" id="11e7-6881-bd6ce692-8a83-bf38d96990bd" type="button" value="金格签章" name="金格签章" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" calculateonrefresh="false" mobile="true" filenamescript="" statetoshow="" approvelimit="" beforeactionscript="" afteractionscript="" dispatcherurl="" dispatchermode="0" dispatcherparams="" acttype="28" actionview="" actionform="" actionflow="" transpond="" actionprint="" jumptype="0" jumpmode="0" jumpactopentype="0" targetlist="" flowmode="2" withold="false" startflowscript="" flowshowtype="ST01" refreshmode="0" refreshfields="" impmappingconfigid="" />&nbsp;&nbsp;<input classname="cn.myapps.core.dynaform.form.ejb.ButtonField" id="11e7-6881-d3cac2f1-8a83-bf38d96990bd" type="button" value="签章" name="签章" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" calculateonrefresh="false" mobile="true" filenamescript="" statetoshow="" approvelimit="" beforeactionscript="" afteractionscript="" dispatcherurl="" dispatchermode="0" dispatcherparams="" acttype="46" actionview="" actionform="" actionflow="" transpond="" actionprint="" jumptype="0" jumpmode="0" jumpactopentype="0" targetlist="" flowmode="2" withold="false" startflowscript="" flowshowtype="ST01" refreshmode="0" refreshfields="" impmappingconfigid="" />&nbsp;&nbsp;<input classname="cn.myapps.core.dynaform.form.ejb.ButtonField" id="11e7-6881-f1954216-8a83-bf38d96990bd" type="button" value="分享" name="分享" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" calculateonrefresh="false" mobile="true" filenamescript="" statetoshow="" approvelimit="" beforeactionscript="" afteractionscript="" dispatcherurl="" dispatchermode="0" dispatcherparams="" acttype="37" actionview="" actionform="" actionflow="" transpond="11e7-6881-e4e6a50b-8a83-bf38d96990bd" actionprint="" jumptype="0" jumpmode="0" jumpactopentype="0" targetlist="" flowmode="2" withold="false" startflowscript="" flowshowtype="ST01" refreshmode="0" refreshfields="" impmappingconfigid="" />&nbsp;<input classname="cn.myapps.core.dynaform.form.ejb.ButtonField" id="11e7-6882-002c2716-8a83-bf38d96990bd" type="button" value="返回" name="返回" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" calculateonrefresh="false" mobile="true" filenamescript="" statetoshow="" approvelimit="" beforeactionscript="" afteractionscript="" dispatcherurl="" dispatchermode="0" dispatcherparams="" acttype="10" actionview="" actionform="" actionflow="" transpond="" actionprint="" jumptype="0" jumpmode="0" jumpactopentype="0" targetlist="" flowmode="2" withold="false" startflowscript="" flowshowtype="ST01" refreshmode="0" refreshfields="" impmappingconfigid="" />&nbsp;&nbsp;<input classname="cn.myapps.core.dynaform.form.ejb.ButtonField" id="11e7-6882-06186b27-8a83-bf38d96990bd" type="button" value="关闭" name="关闭" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" calculateonrefresh="false" mobile="true" filenamescript="" statetoshow="" approvelimit="" beforeactionscript="" afteractionscript="" dispatcherurl="" dispatchermode="0" dispatcherparams="" acttype="8" actionview="" actionform="" actionflow="" transpond="" actionprint="" jumptype="0" jumpmode="0" jumpactopentype="0" targetlist="" flowmode="2" withold="false" startflowscript="" flowshowtype="ST01" refreshmode="0" refreshfields="" impmappingconfigid="" /></td>
+        </tr>
+    </tbody>
+</table>]]></templatecontext>
+    <discription>分享签章返回等</discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>3</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"按钮控件_分享签章返回等","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-65fc-2e4e329c-8f1a-bfe936d3ae2a">
+    <name>选择框基表</name>
+    <parentId>11e7-6167-730d0ba3-991c-c72710268258</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149975194411300000</sortId>
+    <templatecontext><![CDATA[<p>&nbsp;选择框基表</p>
+<table width="80%" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">选项代码：（真实值）</td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-63b5-fac64f14-9525-2f2f151b7063" text="text" name="真实值" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">选项L：（显示值）</td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-63b6-129cc1a5-9525-2f2f151b7063" text="text" name="显示值" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>2</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"选择框基表","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

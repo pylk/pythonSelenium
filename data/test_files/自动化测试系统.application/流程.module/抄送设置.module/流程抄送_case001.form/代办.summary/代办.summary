@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<summaryCfgVO id="11e7-6c69-690a7c37-af7b-510e9c33aad3">
+    <name>代办</name>
+    <parentId>11e7-661f-52938c5a-8f1a-bfe936d3ae2a</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <title>代办</title>
+    <type>00</type>
+    <formId>11e7-661f-52938c5a-8f1a-bfe936d3ae2a</formId>
+    <fieldNames>请假原因;$FormName</fieldNames>
+    <summaryScript><![CDATA[]]></summaryScript>
+    <scope>0</scope>
+</summaryCfgVO>

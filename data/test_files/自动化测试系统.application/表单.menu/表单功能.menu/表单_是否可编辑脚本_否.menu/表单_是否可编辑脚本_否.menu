@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-6794-39e85e5d-bb6a-ff15ffadffa1">
+    <name>表单_是否可编辑脚本_否</name>
+    <parentId>11e7-6793-d44f75bd-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[表单_是否可编辑脚本_否]]></description>
+    <multiLanguageLabel></multiLanguageLabel>
+    <type>00</type>
+    <opentarget>detail</opentarget>
+    <ico>{"icon":"/portal/H5/resource/images/icon_menu_default.png","icontype":"img"}</ico>
+    <superior>11e7-6793-d44f75bd-bb6a-ff15ffadffa1</superior>
+    <linkName>表单_是否可编辑脚本_否</linkName>
+    <linkType>01</linkType>
+    <moduleid>11e7-677c-5e0a2bf2-bb6a-ff15ffadffa1</moduleid>
+    <directory>portal</directory>
+    <actionContent><![CDATA[11e7-6793-ef169fc3-bb6a-ff15ffadffa1]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>4</orderno>
+</resourceVO>

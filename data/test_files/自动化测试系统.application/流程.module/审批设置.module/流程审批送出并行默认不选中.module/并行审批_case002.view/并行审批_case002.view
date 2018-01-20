@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<view id="11e7-6b85-82358f44-a461-afe7c10bb740">
+    <name>并行审批_case002</name>
+    <parentId>11e7-6624-e5d55ab9-8f1a-bfe936d3ae2a</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <openType>1</openType>
+    <pagination>true</pagination>
+    <pagelines>10</pagelines>
+    <editMode>00</editMode>
+    <showTotalRow>true</showTotalRow>
+    <relatedForm>11e7-6625-6240db5f-8f1a-bfe936d3ae2a</relatedForm>
+    <refresh>false</refresh>
+    <lastmodifytime>2017-07-18T00:00:00+08:00</lastmodifytime>
+    <readonly>false</readonly>
+    <viewType>1</viewType>
+    <country></country>
+    <province></province>
+    <city></city>
+    <town></town>
+    <level>4</level>
+    <isroute>false</isroute>
+    <permissionType>public</permissionType>
+</view>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<view id="11e7-66ec-a82c4d3c-bb6a-ff15ffadffa1">
+    <name>网格视图_列隐藏</name>
+    <parentId>11e7-6638-a60f94fa-9cdb-af6bc8266ed2</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[]]></description>
+    <filterScript><![CDATA[]]></filterScript>
+    <sqlFilterScript><![CDATA[]]></sqlFilterScript>
+    <procedureFilterScript><![CDATA[]]></procedureFilterScript>
+    <openType>288</openType>
+    <pagination>true</pagination>
+    <pagelines>10</pagelines>
+    <editMode>00</editMode>
+    <filterCondition><![CDATA[[]]]></filterCondition>
+    <commonFilterCondition><![CDATA[[]]]></commonFilterCondition>
+    <showTotalRow>true</showTotalRow>
+    <relatedForm>11e7-66b5-8955e1ac-9cdb-af6bc8266ed2</relatedForm>
+    <templateForm></templateForm>
+    <refresh>false</refresh>
+    <lastmodifytime>2017-07-12T00:00:00+08:00</lastmodifytime>
+    <readonly>false</readonly>
+    <viewType>1</viewType>
+    <relatedMap><![CDATA[]]></relatedMap>
+    <innerType>FORM</innerType>
+    <nodeLinkId></nodeLinkId>
+    <displayType>relatedForm</displayType>
+    <country></country>
+    <province></province>
+    <city></city>
+    <town></town>
+    <level>4</level>
+    <isroute>false</isroute>
+    <authorityCondition></authorityCondition>
+    <permissionType>public</permissionType>
+</view>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-670b-bfbbdb09-bb6a-ff15ffadffa1">
+    <name>GPS定位_case001</name>
+    <parentId>11e7-6705-6aea0b93-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149986858171500000</sortId>
+    <templatecontext><![CDATA[<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <caption>表单测试用例-GPS定位</caption>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>名称：</p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.WeixinGpsField" src="plugins/weixingpsfield/weixingpsfield.png" id="11e7-670b-496caf54-bb6a-ff15ffadffa1" type="weixingpsfield" fieldtype="VALUE_TYPE_VARCHAR" name="GPS定位_名称" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" refreshonchanged="false" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">普通控件</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>描述：</p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.WeixinGpsField" src="plugins/weixingpsfield/weixingpsfield.png" id="11e7-670b-57220dc5-bb6a-ff15ffadffa1" type="weixingpsfield" fieldtype="VALUE_TYPE_VARCHAR" name="GPS定位_描述" discript="GPS定位_描述" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" refreshonchanged="false" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">描述</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>隐藏时显示值：</p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.WeixinGpsField" src="plugins/weixingpsfield/weixingpsfield.png" id="11e7-670b-6bfc7e66-bb6a-ff15ffadffa1" type="weixingpsfield" fieldtype="VALUE_TYPE_VARCHAR" name="GPS定位_隐藏时显示值" discript="" hiddenscript="true" hiddenvalue="该控件已隐藏" hiddenprintscript="" printhiddenvalue="" refreshonchanged="false" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;隐藏条件为&quot;true&quot;，隐藏时显示值为&ldquo;隐藏时显示值&rdquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>打印隐藏时显示值：</p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.WeixinGpsField" src="plugins/weixingpsfield/weixingpsfield.png" id="11e7-670b-809244e7-bb6a-ff15ffadffa1" type="weixingpsfield" fieldtype="VALUE_TYPE_VARCHAR" name="GPS定位_打印隐藏时显示值" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="true" printhiddenvalue="打印隐藏时显示值" refreshonchanged="false" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;打印隐藏条件为&quot;true&quot;，打印隐藏时显示值为&ldquo;打印隐藏时显示值&rdquo;</td>
+        </tr>
+    </tbody>
+</table>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>9</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"GPS定位_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

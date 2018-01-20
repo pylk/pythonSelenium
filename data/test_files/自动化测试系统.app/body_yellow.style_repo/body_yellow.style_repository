@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<styleRepositoryVO id="11e7-621b-fedc517d-991c-c72710268258">
+    <name>body_yellow</name>
+    <parentId>11e7-5f98-d7d66840-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <content><![CDATA[body{
+background-color:yellow;
+}]]></content>
+    <version>0</version>
+    <lastmodifytime>2017-07-06T00:00:00+08:00</lastmodifytime>
+</styleRepositoryVO>

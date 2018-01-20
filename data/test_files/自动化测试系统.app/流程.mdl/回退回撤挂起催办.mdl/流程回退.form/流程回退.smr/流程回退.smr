@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<summaryCfgVO id="11e7-6e15-6c02a337-af7b-510e9c33aad3">
+    <name>流程回退</name>
+    <parentId>11e7-6e13-4c981a23-af7b-510e9c33aad3</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <title>流程回退</title>
+    <type>00</type>
+    <formId>11e7-6e13-4c981a23-af7b-510e9c33aad3</formId>
+    <fieldNames>请假原因</fieldNames>
+    <summaryScript><![CDATA[]]></summaryScript>
+    <scope>1</scope>
+</summaryCfgVO>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-66ff-d43117a2-bb6a-ff15ffadffa1">
+    <name>查询表单_列表视图_查询</name>
+    <parentId>11e7-662f-43f512d6-9cdb-af6bc8266ed2</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149986346207700000</sortId>
+    <templatecontext><![CDATA[<table cellpadding="1" cellspacing="1">
+    <tbody>
+        <tr>
+            <td>单行文本框：</td>
+            <td style=""><input classname="cn.myapps.runtime.dynaform.form.ejb.InputField" id="11e7-620f-b712e663-991c-c72710268258" text="text" name="单行文本框" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></td>
+            <td>多行文本框：</td>
+            <td><textarea classname="cn.myapps.runtime.dynaform.form.ejb.TextareaField" id="11e7-621f-62706273-991c-c72710268258" name="多行文本框" readonlyshowvalonly="true" fieldtype="VALUE_TYPE_TEXT" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filtercondition="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" processdescription="[];[]" refreshmode="0" refreshfields=""></textarea></td>
+        </tr>
+        <tr>
+            <td>单选框：</td>
+            <td><input classname="cn.myapps.runtime.dynaform.form.ejb.RadioField" id="11e7-621f-732bd4f6-991c-c72710268258" type="radio" name="单选框" discript="" valuescript="" optionsscript="@quot;男;女@quot;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" filtercondition="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" processdescription="[];[]" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></td>
+            <td>多选框：</td>
+            <td><input classname="cn.myapps.runtime.dynaform.form.ejb.CheckboxField" id="11e7-621f-8f0d4879-991c-c72710268258" type="checkbox" name="多选框" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="@quot;苹果;桃子;葡萄@quot;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></td>
+        </tr>
+        <tr>
+            <td>下拉框：</td>
+            <td><select classname="cn.myapps.runtime.dynaform.form.ejb.SelectField" id="11e7-621f-b89e4e0e-991c-c72710268258" name="下拉框" discript="" readonlyshowvalonly="true" valuescript="" optionsscript="@quot;;广州;上海;北京;深圳@quot;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></td>
+            <td>日期选择框：</td>
+            <td><input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-621f-c9c15c01-991c-c72710268258" type="text" fieldtype="VALUE_TYPE_DATE" name="视图选择框" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="YMD" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+        </tr>
+        <tr>
+            <td>部门选择框：</td>
+            <td><select classname="cn.myapps.runtime.dynaform.form.ejb.DepartmentField" id="11e7-621f-e0fa7d26-991c-c72710268258" type="text" name="部门选择框" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" texttype="text" limitbyuser="false" departmentlevel="-1" relatedfield="" isdepartmentfield="true" defaultoptiontype="16" allowempty="true" discript="" filtercondition="" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01"></select></td>
+            <td>树形部门选择框：</td>
+            <td><select classname="cn.myapps.runtime.dynaform.form.ejb.TreeDepartmentField" id="11e7-621f-f32696a7-991c-c72710268258" type="text" name="树形部门选择框" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="text" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></td>
+        </tr>
+        <tr>
+            <td>用户选择框：</td>
+            <td><select classname="cn.myapps.runtime.dynaform.form.ejb.UserField" id="11e7-621f-fdd40c4a-991c-c72710268258" type="text" name="用户选择框" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" limitsum="10" fieldtype="VALUE_TYPE_TEXT" texttype="text" limitbyuser="false" isuserfield="true" filterfield="" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" refreshmode="0" refreshfields="" selectmode="multiSelect"></select></td>
+            <td>左右选择框：</td>
+            <td><select classname="cn.myapps.runtime.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-6220-32a5eddd-991c-c72710268258" name="左右选择框" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" optionsscript="@quot;佛山;广州;深圳;中山;东莞@quot;" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></td>
+        </tr>
+        <tr>
+            <td>智能提示选择框：             <input classname="cn.myapps.runtime.dynaform.form.ejb.SuggestField" type="text" id="11e7-6220-49061420-991c-c72710268258" name="智能提示选择框" discript="" valuescript="" optionsscript="@quot;aa;bb;cc;dd@quot;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" refreshmode="0" refreshfields="" datamode="local" /></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
+</table>]]></templatecontext>
+    <discription></discription>
+    <type>256</type>
+    <showLog>false</showLog>
+    <showWaterMark>false</showWaterMark>
+    <version>0</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"查询表单_列表视图_查询","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

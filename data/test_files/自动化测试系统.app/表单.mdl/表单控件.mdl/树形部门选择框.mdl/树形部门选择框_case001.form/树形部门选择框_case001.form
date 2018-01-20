@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-63b9-e149d052-9739-c30e45cd762f">
+    <name>树形部门选择框_case001</name>
+    <parentId>11e7-63b7-05c12bf9-9739-c30e45cd762f</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149950356579000000</sortId>
+    <templatecontext><![CDATA[<p>&nbsp;</p>
+<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-63b8-5dde474c-9739-c30e45cd762f" type="text" name="树形部门选择框_名称" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="text" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">判断类型为树形部门</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-63b8-7264cba0-9739-c30e45cd762f" type="text" name="树形部门选择框_显示只读" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="readonly" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿显示设置为&lsquo;只读&rsquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-63b8-7dd199a1-9739-c30e45cd762f" type="text" name="树形部门选择框_显示隐藏" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="hidden" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿显示设置为&lsquo;隐藏&rsquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-63b8-913ce9e2-9739-c30e45cd762f" type="text" name="树形部门选择框_刷新" refreshonchanged="true" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="text" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select>&nbsp; &nbsp;刷新判断<input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-63b8-a1885c83-9739-c30e45cd762f" text="text" name="已选部门数" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="(function(){@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;var@nbsp;selected_depts=getItemValueAsString(@quot;树形部门选择框_刷新@quot;);@amp;#13;&#9;var@nbsp;rnt=@quot;@quot;;@amp;#13;&#9;if(selected_depts!=null@amp;@amp;selected_depts!=@quot;@quot;){@amp;#13;&#9;@nbsp;@nbsp;@nbsp;@nbsp;rnt=@quot;已刷新@quot;;@amp;#13;&#9;}@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;return@nbsp;rnt;@amp;#13;})()" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="true" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">验证刷新</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;输入只读<input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-6538-3689216b-9cdb-af6bc8266ed2" text="text" name="只读刷新" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="(function(){@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;var@nbsp;isreflesh=getItemValueAsString(@quot;只读刷新@quot;);@amp;#13;&#9;var@nbsp;flag=false;@amp;#13;&#9;if(@quot;只读@quot;.equals(isreflesh)){@amp;#13;&#9;@nbsp;@nbsp;@nbsp;@nbsp;flag=true;@amp;#13;&#9;}@amp;#13;&#9;return@nbsp;flag;@amp;#13;})()" refreshonchanged="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" />&nbsp;<select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-6538-49d4668c-9cdb-af6bc8266ed2" type="text" name="树形部门选择框_重计算" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="true" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="(function(){@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;var@nbsp;isreflesh=getItemValueAsString(@quot;只读刷新@quot;);@amp;#13;&#9;var@nbsp;flag=false;@amp;#13;&#9;if(@quot;只读@quot;.equals(isreflesh)){@amp;#13;&#9;@nbsp;@nbsp;@nbsp;@nbsp;flag=true;@amp;#13;&#9;}@amp;#13;&#9;return@nbsp;flag;@amp;#13;})()" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="text" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">验证重计算</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-63b8-d7106eb4-9739-c30e45cd762f" type="text" name="树形部门选择框_描述" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="树形部门选择框_描述" fieldtype="VALUE_TYPE_TEXT" texttype="text" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding" style="box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(99, 99, 101); cursor: pointer; outline: none; font-family: &quot;Microsoft YaHei&quot;, PingHei, &quot;Hiragino Sans GB&quot;, &quot;Lucida Grande&quot;, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">﻿﻿﻿描述值验证</a><a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-63b8-e4e62665-9739-c30e45cd762f" type="text" name="树形部门选择框_可选" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="text" limit="1" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">验证可选1项</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-63b8-f74e1066-9739-c30e45cd762f" type="text" name="树形部门选择框_非空校验" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="text" limit="" istreedepartmentfield="true" validatelibs="core.dynaform.form.formfield.validate.checkEmpty_system" refreshmode="0" refreshfields="" editmode=""></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding">﻿非空验证</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-67b9-994c6296-bb6a-ff15ffadffa1" type="text" name="树形部门选择框_打印隐藏时显示值" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="true;" printhiddenvalue="打印隐藏时显示值" readonlyscript="" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="text" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">打印隐藏时显示值</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-63b9-42b46ee1-9739-c30e45cd762f" type="text" name="树形部门选择框_隐藏时显示值" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="true;" hiddenvalue="控件已隐藏" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="text" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">隐藏条件显示值</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-6536-3753fdeb-9cdb-af6bc8266ed2" type="text" name="树形部门选择框_只读时仅显示值" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="true;" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="readonly" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">只读仅显示值</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-63b9-c9be2255-9739-c30e45cd762f" type="text" name="树形部门选择框_只读条件" refreshonchanged="false" readonlyshowvalonly="false" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="true;" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="text" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">只读条件为true</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-6537-64cb6ffd-9cdb-af6bc8266ed2" type="text" name="树形部门选择框_点击清除" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="text" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">点击清除按钮</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><select classname="cn.myapps.core.dynaform.form.ejb.TreeDepartmentField" id="11e7-6537-8685787e-9cdb-af6bc8266ed2" type="text" name="树形部门选择框_点击退出" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="" calculateonrefresh="false" mobile="true" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" fieldtype="VALUE_TYPE_TEXT" texttype="text" limit="" istreedepartmentfield="true" validatelibs="" refreshmode="0" refreshfields="" editmode=""></select></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">点击树形弹出框退出</td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>18</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"树形部门选择框_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<module id="11e7-6705-307af04f-bb6a-ff15ffadffa1">
+    <name>左右选择框</name>
+    <parentId>11e7-6167-730d0ba3-991c-c72710268258</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[]]></description>
+    <orderNo>10</orderNo>
+    <superior>11e7-6167-730d0ba3-991c-c72710268258</superior>
+</module>

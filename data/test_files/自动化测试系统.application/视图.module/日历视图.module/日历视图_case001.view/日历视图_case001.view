@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<view id="11e7-6772-c9cf54c2-9f81-63911c9fa2cf">
+    <name>日历视图_case001</name>
+    <parentId>11e7-6772-9b83ad3c-9f81-63911c9fa2cf</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[]]></description>
+    <filterScript><![CDATA[]]></filterScript>
+    <sqlFilterScript><![CDATA[]]></sqlFilterScript>
+    <procedureFilterScript><![CDATA[]]></procedureFilterScript>
+    <searchFormId>11e7-7052-3e9aa205-af7b-510e9c33aad3</searchFormId>
+    <openType>1</openType>
+    <pagination>false</pagination>
+    <editMode>00</editMode>
+    <filterCondition><![CDATA[[{field:'填单时间',operator:'=',type:'03',match:'填单时间'},{field:'结束时间',operator:'=',type:'03',match:'填单时间'},{field:'备注',operator:'=',type:'03',match:'填单时间'}]]]></filterCondition>
+    <commonFilterCondition><![CDATA[[]]]></commonFilterCondition>
+    <showTotalRow>false</showTotalRow>
+    <relatedForm>11e7-6772-aeb43e70-9f81-63911c9fa2cf</relatedForm>
+    <templateForm></templateForm>
+    <refresh>false</refresh>
+    <lastmodifytime>2017-07-25T00:00:00+08:00</lastmodifytime>
+    <readonly>false</readonly>
+    <viewType>16</viewType>
+    <relatedMap><![CDATA[]]></relatedMap>
+    <innerType>FORM</innerType>
+    <nodeLinkId></nodeLinkId>
+    <displayType>relatedForm</displayType>
+    <country></country>
+    <province></province>
+    <city></city>
+    <town></town>
+    <level>4</level>
+    <isroute>false</isroute>
+    <authorityCondition></authorityCondition>
+    <permissionType>public</permissionType>
+</view>

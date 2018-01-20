@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-6711-4a69017c-bb6a-ff15ffadffa1">
+    <name>计算脚本_case001</name>
+    <parentId>11e7-6705-0494890a-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149987096185900000</sortId>
+    <templatecontext><![CDATA[<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <caption>表单测试用例-计算脚本</caption>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p><img src="plugins/calctextfield/calctextfield.gif" classname="cn.myapps.runtime.dynaform.form.ejb.CalctextField" id="11e7-6710-b935ae17-bb6a-ff15ffadffa1" name="计算脚本_普通字符串" valuescript="@quot;普通字符串@quot;" calculateonrefresh="false" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">计算脚本输出普通字符串</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>重计算：<input classname="cn.myapps.runtime.dynaform.form.ejb.InputField" id="11e7-6706-f4d58cbb-bb6a-ff15ffadffa1" text="text" name="计算脚本_单行文本刷新" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></p>
+            <p><img src="plugins/calctextfield/calctextfield.gif" classname="cn.myapps.runtime.dynaform.form.ejb.CalctextField" id="11e7-6710-d7decd18-bb6a-ff15ffadffa1" name="计算脚本_重计算" valuescript="var@nbsp;item1@nbsp;=@nbsp;getItemValueAsString(@quot;计算脚本_单行文本刷新@quot;);@amp;#13;item1;" calculateonrefresh="true" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">单行文本刷新时，计算脚本重计算</td>
+        </tr>
+    </tbody>
+</table>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <showWaterMark>false</showWaterMark>
+    <version>2</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"计算脚本_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

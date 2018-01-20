@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<module id="11e7-6638-3cb4e8d3-9cdb-af6bc8266ed2">
+    <name>地图视图</name>
+    <parentId>11e7-5f99-b48e293e-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[]]></description>
+    <orderNo>2</orderNo>
+    <superior>11e7-5f99-b48e293e-917f-e799edecb417</superior>
+</module>

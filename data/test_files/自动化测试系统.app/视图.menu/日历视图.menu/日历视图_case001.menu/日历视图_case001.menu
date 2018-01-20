@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-6774-82d87363-9f81-63911c9fa2cf">
+    <name>日历视图_case001</name>
+    <parentId>11e7-6774-65544c62-9f81-63911c9fa2cf</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[日历视图_case001]]></description>
+    <multiLanguageLabel></multiLanguageLabel>
+    <type>00</type>
+    <opentarget>detail</opentarget>
+    <ico>{"icon":"/portal/H5/resource/images/icon_menu_default.png","icontype":"img"}</ico>
+    <superior>11e7-6774-65544c62-9f81-63911c9fa2cf</superior>
+    <linkName>日历视图_case001</linkName>
+    <linkType>01</linkType>
+    <moduleid>11e7-6772-9b83ad3c-9f81-63911c9fa2cf</moduleid>
+    <directory>portal</directory>
+    <actionContent><![CDATA[11e7-6772-c9cf54c2-9f81-63911c9fa2cf]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>0</orderno>
+</resourceVO>

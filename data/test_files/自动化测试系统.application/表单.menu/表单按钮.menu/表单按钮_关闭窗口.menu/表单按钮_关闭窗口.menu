@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-72d2-6bb1c3dc-966a-876161d2b77c">
+    <name>表单按钮_关闭窗口</name>
+    <parentId>11e7-661c-36042c58-9cdb-af6bc8266ed2</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[表单按钮_关闭窗口]]></description>
+    <multiLanguageLabel></multiLanguageLabel>
+    <type>00</type>
+    <opentarget>detail</opentarget>
+    <ico>{"icon":"/portal/H5/resource/images/icon_menu_default.png","icontype":"img"}</ico>
+    <superior>11e7-661c-36042c58-9cdb-af6bc8266ed2</superior>
+    <linkName>表单按钮_关闭窗口</linkName>
+    <linkType>01</linkType>
+    <moduleid>11e7-6616-260fe9cd-9cdb-af6bc8266ed2</moduleid>
+    <directory>portal</directory>
+    <actionContent><![CDATA[11e7-72d2-3eeff0c8-966a-876161d2b77c]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>6</orderno>
+</resourceVO>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-65fb-c8c500de-8f1a-bfe936d3ae2a">
+    <name>复选框_case001</name>
+    <parentId>11e7-65fb-bbdf276a-8f1a-bfe936d3ae2a</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149975177376400000</sortId>
+    <templatecontext><![CDATA[<p style="text-align: center;">&nbsp; 表单测试用例-复选框</p>
+<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>名称：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a3-bde3a025-9525-2f2f151b7063" type="checkbox" name="复选框_名称" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">普通的复选框</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>水平布局:</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a3-e7eeded6-9525-2f2f151b7063" type="checkbox" name="复选框_水平布局" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">布局设置为&rdquo;水平&ldquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>垂直布局：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a3-f7a8bfe7-9525-2f2f151b7063" type="checkbox" name="复选框_垂直布局" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="vertical" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿布局设置为&rdquo;垂直&ldquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>显示只读：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a4-216569f2-9525-2f2f151b7063" type="checkbox" name="复选框_只读" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="readonly" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿显示设置为&rdquo;只读&ldquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>﻿刷新：<a id="fck_paste_padding">﻿</a></p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a5-9983bae2-9525-2f2f151b7063" type="checkbox" name="复选框_刷新" discript="" refreshonchanged="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">勾选&lsquo;刷新&rsquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;重计算：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a5-b32af4e2-9525-2f2f151b7063" type="checkbox" name="复选框_重计算" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="true" mobile="true" valuescript="var@nbsp;rtn@nbsp;=@nbsp;getItemValue(@quot;复选框_刷新@quot;);@amp;#13;println(@quot;rtn---@gt;@gt;@quot;+rtn);@amp;#13;rtn;" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;﻿勾选&lsquo;重计算&rsquo;<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;描述：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a5-dcaae382-9525-2f2f151b7063" type="checkbox" name="复选框_描述" discript="复选框_描述" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;描述值验证</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;值脚本设计模式：</p>
+            <p>&nbsp;<input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-67c7-96ade1ad-bb6a-ff15ffadffa1" type="checkbox" name="复选框_值脚本设计模式" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[{@quot;text@quot;:@#146;复选框_名称@#146;,@quot;value@quot;:@#146;VALUE_TYPE_TEXT@#146;}];[复选框_名称]" filtercondition="var@nbsp;doc=@nbsp;$CURRDOC.getCurrDoc();@amp;#13;(doc.getItemValueAsString(@#146;复选框_名称@#146;));" readonlyscript="" validatelibs="" editmode="00" optionseditmode="00" dialogview="11e7-65fc-33a47841-8f1a-bfe936d3ae2a" module="11e7-6167-730d0ba3-991c-c72710268258" optionsvalue="11e7-65fc-33a47842-8f1a-bfe936d3ae2a" refreshmode="0" refreshfields="" optionstext="11e7-65fc-33a47843-8f1a-bfe936d3ae2a" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;值脚本设计模式验证</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;值脚本验证：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a5-f5eb9482-9525-2f2f151b7063" type="checkbox" name="复选框_值脚本" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="@quot;2@quot;;" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;值脚本验证</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;值﻿IsDefaultValue：</p>
+            <p><a id="fck_paste_padding">&nbsp;<input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-67c7-d0832e14-bb6a-ff15ffadffa1" type="checkbox" name="复选框_值IsDefaultValue" discript="" refreshonchanged="false" isdefaultvalue="true" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" />﻿</a></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;勾选&lsquo;﻿IsDefaultValue<a id="fck_paste_padding">﻿</a>&rsquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;选项脚本设计模式：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a6-0fb54ba2-9525-2f2f151b7063" type="checkbox" name="复选框_选项脚本设计模式" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="00" dialogview="11e7-65fc-33a47841-8f1a-bfe936d3ae2a" module="11e7-6167-730d0ba3-991c-c72710268258" optionsvalue="11e7-65fc-33a47842-8f1a-bfe936d3ae2a" refreshmode="0" refreshfields="" optionstext="11e7-65fc-33a47843-8f1a-bfe936d3ae2a" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;﻿选项脚本设计模式<a id="fck_paste_padding">﻿验证</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;选项脚本：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-67d1-be8da904-bb6a-ff15ffadffa1" type="checkbox" name="复选框_选项脚本" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿选项脚本<a id="fck_paste_padding">﻿验证</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;非空校验：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a6-1e69caa2-9525-2f2f151b7063" type="checkbox" name="复选框_非空校验" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="core.dynaform.form.formfield.validate.checkEmpty_system" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;﻿非空校验<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;﻿隐藏条件：<a id="fck_paste_padding">﻿</a></p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a6-3e5b4832-9525-2f2f151b7063" type="checkbox" name="复选框_隐藏条件" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="true;" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;隐藏条件为：true</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;﻿隐藏时显示值：<a id="fck_paste_padding">﻿</a></p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a8-11293c42-9525-2f2f151b7063" type="checkbox" name="复选框_隐藏时显示值" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="true;" hiddenvalue="控件已隐藏" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;隐藏时显示值：控件已隐藏</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p><a id="fck_paste_padding" style="box-sizing: border-box; margin: 0px; padding: 0px; cursor: pointer; outline: 0px; font-family: &quot;Microsoft YaHei&quot;, PingHei, &quot;Hiragino Sans GB&quot;, &quot;Lucida Grande&quot;, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">打印时隐藏条件：﻿</a><a id="fck_paste_padding">﻿</a></p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a8-292b79d2-9525-2f2f151b7063" type="checkbox" name="复选框_打印时隐藏" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="true;" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;﻿打印时隐藏条件为&rsquo;true&lsquo;<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;﻿打印隐藏时显示值：<a id="fck_paste_padding">﻿</a></p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a8-4452ec32-9525-2f2f151b7063" type="checkbox" name="复选框_打印隐藏时显示值" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="true;" printhiddenvalue="打印隐藏时显示值" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding" style="box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(99, 99, 101); cursor: pointer; outline: none; font-family: &quot;Microsoft YaHei&quot;, PingHei, &quot;Hiragino Sans GB&quot;, &quot;Lucida Grande&quot;, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">打印隐藏时显示值﻿</a><a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;﻿只读条件：<a id="fck_paste_padding">﻿</a></p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.CheckboxField" id="11e7-63a8-61252862-9525-2f2f151b7063" type="checkbox" name="复选框_只读条件" discript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_TEXT" processdescription="[];[]" filtercondition="" readonlyscript="true;" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿只读条件为&rsquo;true&lsquo;&nbsp;<a id="fck_paste_padding">﻿</a>&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>10</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"复选框_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

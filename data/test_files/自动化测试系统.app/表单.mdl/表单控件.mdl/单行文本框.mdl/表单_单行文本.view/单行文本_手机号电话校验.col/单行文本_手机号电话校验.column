@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<column id="11e7-6154-66495bc7-991c-c72710268258">
+    <name>单行文本_手机号电话校验</name>
+    <parentId>11e7-6154-6645d947-991c-c72710268258</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <parentView>11e7-6154-6645d947-991c-c72710268258</parentView>
+    <type>COLUMN_TYPE_FIELD</type>
+    <formid>11e7-5f9b-c4f54fcd-917f-e799edecb417</formid>
+    <fieldName>单行文本_手机号电话校验</fieldName>
+    <flowReturnCss>false</flowReturnCss>
+    <orderno>15</orderno>
+    <sum>false</sum>
+    <total>false</total>
+    <isOrderByField>false</isOrderByField>
+    <clickSorting>true</clickSorting>
+    <thouSign>false</thouSign>
+    <color>000000</color>
+    <fontSize>12</fontSize>
+    <groundColor>FFFFFF</groundColor>
+    <showIcon>false</showIcon>
+    <iconMapping></iconMapping>
+    <visible>true</visible>
+    <visible4ExpExcel>true</visible4ExpExcel>
+    <visible4Print>true</visible4Print>
+    <visible4PagePrint>true</visible4PagePrint>
+    <showType>01</showType>
+    <displayType>00</displayType>
+    <displayLength>-1</displayLength>
+    <showTitle>true</showTitle>
+</column>

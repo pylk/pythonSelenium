@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<view id="11e7-66a9-1531f10d-8f1a-bfe936d3ae2a">
+    <name>流程回退回撤挂起催办</name>
+    <parentId>11e7-66a8-be4cea55-8f1a-bfe936d3ae2a</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <openType>1</openType>
+    <pagination>true</pagination>
+    <pagelines>10</pagelines>
+    <editMode>00</editMode>
+    <showTotalRow>true</showTotalRow>
+    <relatedForm>11e7-66a9-10e6168a-8f1a-bfe936d3ae2a</relatedForm>
+    <refresh>false</refresh>
+    <lastmodifytime>2017-07-12T00:00:00+08:00</lastmodifytime>
+    <readonly>false</readonly>
+    <viewType>1</viewType>
+    <country></country>
+    <province></province>
+    <city></city>
+    <town></town>
+    <level>4</level>
+    <isroute>false</isroute>
+    <permissionType>public</permissionType>
+</view>

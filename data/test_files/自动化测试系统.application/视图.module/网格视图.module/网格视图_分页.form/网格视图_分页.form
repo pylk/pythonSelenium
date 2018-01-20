@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-66b5-b5724d69-9cdb-af6bc8266ed2">
+    <name>网格视图_分页</name>
+    <parentId>11e7-6638-a60f94fa-9cdb-af6bc8266ed2</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149983162773800000</sortId>
+    <templatecontext><![CDATA[<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <caption>网格视图_分页</caption>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>文本一：</p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.InputField" id="11e7-66b5-b316f845-9cdb-af6bc8266ed2" text="text" name="网格视图_文本一" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;文本二：</p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<select classname="cn.myapps.runtime.dynaform.form.ejb.SelectField" id="11e7-66d4-407be216-9cdb-af6bc8266ed2" name="网格视图_下拉" discript="" readonlyshowvalonly="true" valuescript="" optionsscript="(function(){@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;var@nbsp;opts@nbsp;=@nbsp;@nbsp;createOptions();@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;opts.add(@quot;@quot;,@quot;@quot;);@amp;#13;&#9;opts.add(@quot;下拉1@quot;,@quot;1@quot;,true);@amp;#13;&#9;opts.add(@quot;下拉2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;下拉3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;下拉4@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;下拉5@quot;,@quot;3@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" texttype="text" readonlyscript="" fieldtype="VALUE_TYPE_VARCHAR" processdescription="[];[]" filtercondition="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></td>
+        </tr>
+    </tbody>
+</table>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <showWaterMark>false</showWaterMark>
+    <version>2</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"网格视图_分页","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

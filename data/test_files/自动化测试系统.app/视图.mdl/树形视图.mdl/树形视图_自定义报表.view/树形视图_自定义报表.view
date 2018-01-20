@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<view id="11e7-7591-a0460328-966a-876161d2b77c">
+    <name>树形视图_自定义报表</name>
+    <parentId>11e7-6775-b396ac04-9f81-63911c9fa2cf</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[]]></description>
+    <filterScript><![CDATA[]]></filterScript>
+    <sqlFilterScript><![CDATA[]]></sqlFilterScript>
+    <procedureFilterScript><![CDATA[]]></procedureFilterScript>
+    <openType>1</openType>
+    <pagination>false</pagination>
+    <editMode>00</editMode>
+    <filterCondition><![CDATA[[]]]></filterCondition>
+    <commonFilterCondition><![CDATA[[]]]></commonFilterCondition>
+    <showTotalRow>true</showTotalRow>
+    <relatedForm>11e7-6775-dcad2a68-9f81-63911c9fa2cf</relatedForm>
+    <templateForm></templateForm>
+    <refresh>false</refresh>
+    <lastmodifytime>2017-07-31T00:00:00+08:00</lastmodifytime>
+    <readonly>false</readonly>
+    <viewType>17</viewType>
+    <relatedMap><![CDATA[]]></relatedMap>
+    <innerType>LINK</innerType>
+    <nodeLinkId>11e7-7590-49a0e197-966a-876161d2b77c</nodeLinkId>
+    <displayType>relatedForm</displayType>
+    <country></country>
+    <province></province>
+    <city></city>
+    <town></town>
+    <level>4</level>
+    <isroute>false</isroute>
+    <authorityCondition></authorityCondition>
+    <permissionType>public</permissionType>
+    <linkVoJson><![CDATA[{"actionContent":"/portal/share/report/oReport/oReport.jsp?id=cf7fee98-a4fe-472f-a007-445b7ee6c4bf","applicationid":"11e7-5f98-d7d66840-917f-e799edecb417","description":"","directory":"portal","domainid":"","id":"11e7-7590-49a0e197-966a-876161d2b77c","lazyLoad":true,"moduleid":"","name":"自定义报表","queryString":"[]","sortId":"","type":"09","version":0}]]></linkVoJson>
+</view>

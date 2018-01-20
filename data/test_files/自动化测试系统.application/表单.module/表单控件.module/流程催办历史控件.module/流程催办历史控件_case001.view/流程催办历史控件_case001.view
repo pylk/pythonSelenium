@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<view id="11e7-6947-86b1731e-8a83-bf38d96990bd">
+    <name>流程催办历史控件_case001</name>
+    <parentId>11e7-64a6-575cd657-9525-2f2f151b7063</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <openType>1</openType>
+    <pagination>true</pagination>
+    <pagelines>10</pagelines>
+    <editMode>00</editMode>
+    <showTotalRow>true</showTotalRow>
+    <relatedForm>11e7-64a6-6a7a06a7-9525-2f2f151b7063</relatedForm>
+    <refresh>false</refresh>
+    <lastmodifytime>2017-07-15T00:00:00+08:00</lastmodifytime>
+    <readonly>false</readonly>
+    <viewType>1</viewType>
+    <country></country>
+    <province></province>
+    <city></city>
+    <town></town>
+    <level>4</level>
+    <isroute>false</isroute>
+    <permissionType>public</permissionType>
+</view>

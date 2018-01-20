@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<view id="11e7-6636-5d24a823-9cdb-af6bc8266ed2">
+    <name>查询表单_日历视图</name>
+    <parentId>11e7-662f-43f512d6-9cdb-af6bc8266ed2</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[日历视图]]></description>
+    <filterScript><![CDATA[]]></filterScript>
+    <sqlFilterScript><![CDATA[]]></sqlFilterScript>
+    <procedureFilterScript><![CDATA[]]></procedureFilterScript>
+    <searchFormId>11e7-6632-9a781b8f-9cdb-af6bc8266ed2</searchFormId>
+    <openType>1</openType>
+    <pagination>false</pagination>
+    <editMode>00</editMode>
+    <filterCondition><![CDATA[[{field:'单行文本框',operator:'LIKE',type:'03',match:'单行文本框'},{field:'多行文本框',operator:'LIKE',type:'03',match:'多行文本框'},{field:'单选框',operator:'LIKE',type:'03',match:'单选框'},{field:'多选框',operator:'LIKE',type:'03',match:'多选框'},{field:'下拉框',operator:'LIKE',type:'03',match:'下拉框'},{field:'部门选择框',operator:'LIKE',type:'03',match:'部门选择框'},{field:'树形部门选择框',operator:'LIKE',type:'03',match:'树形部门选择框'},{field:'用户选择框',operator:'LIKE',type:'03',match:'用户选择框'},{field:'左右选择框',operator:'LIKE',type:'03',match:'左右选择框'},{field:'智能提示选择框',operator:'LIKE',type:'03',match:'智能提示选择框'},{field:'日期选择框',operator:'=',type:'03',match:'日期选择框'}]]]></filterCondition>
+    <commonFilterCondition><![CDATA[[{field:'单行文本框',isCommonFilter:'true'}]]]></commonFilterCondition>
+    <showTotalRow>false</showTotalRow>
+    <relatedForm>11e7-6630-b9fe3f18-9cdb-af6bc8266ed2</relatedForm>
+    <templateForm></templateForm>
+    <refresh>false</refresh>
+    <lastmodifytime>2017-08-31T00:00:00+08:00</lastmodifytime>
+    <readonly>false</readonly>
+    <viewType>16</viewType>
+    <relatedMap><![CDATA[]]></relatedMap>
+    <innerType>FORM</innerType>
+    <nodeLinkId></nodeLinkId>
+    <displayType>relatedForm</displayType>
+    <country></country>
+    <province></province>
+    <city></city>
+    <town></town>
+    <level>4</level>
+    <isroute>false</isroute>
+    <authorityCondition></authorityCondition>
+    <permissionType>public</permissionType>
+</view>

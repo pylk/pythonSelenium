@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-6707-b9e4f00b-bb6a-ff15ffadffa1">
+    <name>html控件_case001</name>
+    <parentId>11e7-6705-8d34e266-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149986685393100000</sortId>
+    <templatecontext><![CDATA[<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <caption>表单测试用例-html控件</caption>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>名称：</p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.HTMLEditorField" src="images/web.gif" id="11e7-6706-400bcfb7-bb6a-ff15ffadffa1" type="htmleditorfield" name="html编辑器_名称" areaheight="" areawidth="" discript="" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" editmode="" refreshmode="0" refreshfields="" fieldtype="VALUE_TYPE_TEXT" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">普通的html编辑器</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>大小(像素)：</p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.HTMLEditorField" src="images/web.gif" id="11e7-6706-7d4862d8-bb6a-ff15ffadffa1" type="htmleditorfield" name="html编辑器_大小_像素" areaheight="400px" areawidth="800px" discript="" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" editmode="" refreshmode="0" refreshfields="" fieldtype="VALUE_TYPE_TEXT" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">大小：宽800px，高400px</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>大小(百分比)：</p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.HTMLEditorField" src="images/web.gif" id="11e7-6706-af8800c9-bb6a-ff15ffadffa1" type="htmleditorfield" name="html编辑器_大小_百分比" areaheight="400px" areawidth="80%" discript="" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" editmode="" refreshmode="0" refreshfields="" fieldtype="VALUE_TYPE_TEXT" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿大小：宽80%，高400px</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>重计算：<input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-6706-f4d58cbb-bb6a-ff15ffadffa1" text="text" name="单行文本刷新" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.HTMLEditorField" src="images/web.gif" id="11e7-6706-d5e74e6a-bb6a-ff15ffadffa1" type="htmleditorfield" name="html编辑器_重计算" areaheight="" areawidth="" discript="" isdefaultvalue="false" calculateonrefresh="true" mobile="true" valuescript="" hiddenscript="(function(){&#9;@amp;#13;&#9;var@nbsp;item1@nbsp;=@nbsp;getItemValueAsString(@quot;单行文本刷新@quot;)@amp;#13;&#9;var@nbsp;rtn@nbsp;=@nbsp;false;@amp;#13;&#9;if(@quot;hide@quot;.equals(item1)){@amp;#13;&#9;&#9;rtn@nbsp;=@nbsp;true;@amp;#13;&#9;}@amp;#13;&#9;return@nbsp;rtn;@amp;#13;})();" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" editmode="01" refreshmode="0" refreshfields="" fieldtype="VALUE_TYPE_TEXT" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">单行文本刷新时，html编辑器重计算</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>描述：</p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.HTMLEditorField" src="images/web.gif" id="11e7-6707-12a9334c-bb6a-ff15ffadffa1" type="htmleditorfield" name="html编辑器_描述" areaheight="" areawidth="" discript="html编辑器_描述描述" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" editmode="" refreshmode="0" refreshfields="" fieldtype="VALUE_TYPE_TEXT" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">描述</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>值脚本设计模式：<input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-6eba-7151d47c-966a-876161d2b77c" text="text" name="值脚本_单行文本框" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="111" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.HTMLEditorField" src="images/web.gif" id="11e7-67d0-ce4c8856-bb6a-ff15ffadffa1" type="htmleditorfield" name="HTML编辑器_值脚本设计" areaheight="" areawidth="" discript="" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" editmode="00" refreshmode="0" refreshfields="" fieldtype="VALUE_TYPE_TEXT" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿值脚本设计模式<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>值脚本：</p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.HTMLEditorField" src="images/web.gif" id="11e7-6707-267cbb3d-bb6a-ff15ffadffa1" type="htmleditorfield" name="html编辑器_值脚本" areaheight="" areawidth="" discript="" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="@quot;aaa@quot;" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" editmode="01" refreshmode="0" refreshfields="" fieldtype="VALUE_TYPE_TEXT" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">值脚本为&quot;aaa&quot;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>值IsDefaultValue：</p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.HTMLEditorField" src="images/web.gif" id="11e7-67d0-f204aad2-bb6a-ff15ffadffa1" type="htmleditorfield" name="HTML编辑器_值IsDefalutValue" areaheight="" areawidth="" discript="" isdefaultvalue="true" calculateonrefresh="false" mobile="true" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" editmode="01" refreshmode="0" refreshfields="" fieldtype="VALUE_TYPE_TEXT" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿值IsDefaultValue<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>隐藏时显示值：</p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.HTMLEditorField" src="images/web.gif" id="11e7-6707-5e5f382f-bb6a-ff15ffadffa1" type="htmleditorfield" name="html编辑器_隐藏时显示值" areaheight="" areawidth="" discript="" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" hiddenscript="true" hiddenvalue="隐藏时显示值" hiddenprintscript="" printhiddenvalue="" readonlyscript="" editmode="01" refreshmode="0" refreshfields="" fieldtype="VALUE_TYPE_TEXT" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">隐藏时显示值为&quot;隐藏时显示值&quot;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>打印隐藏时显示值：</p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.HTMLEditorField" src="images/web.gif" id="11e7-6707-88b73740-bb6a-ff15ffadffa1" type="htmleditorfield" name="html编辑器_打印隐藏时显示值" areaheight="" areawidth="" discript="" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="true" printhiddenvalue="打印隐藏时显示值" readonlyscript="" editmode="01" refreshmode="0" refreshfields="" fieldtype="VALUE_TYPE_TEXT" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">打印隐藏时显示值为&quot;打印隐藏时显示值&quot;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>只读条件：</p>
+            <p><img classname="cn.myapps.core.dynaform.form.ejb.HTMLEditorField" src="images/web.gif" id="11e7-6707-d9b159ec-bb6a-ff15ffadffa1" type="htmleditorfield" name="html编辑器_只读条件" areaheight="" areawidth="" discript="" isdefaultvalue="false" calculateonrefresh="false" mobile="true" valuescript="@quot;bbb@quot;" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="true" editmode="01" refreshmode="0" refreshfields="" fieldtype="VALUE_TYPE_TEXT" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">只读条件</td>
+        </tr>
+    </tbody>
+</table>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>17</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"html控件_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

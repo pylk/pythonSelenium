@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-64a6-6a7a06a7-9525-2f2f151b7063">
+    <name>流程催办历史控件_case001</name>
+    <parentId>11e7-64a6-575cd657-9525-2f2f151b7063</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149960515718200000</sortId>
+    <templatecontext><![CDATA[<p>&nbsp;流程表单：</p>
+<table width="80%" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">姓名：<input classname="cn.myapps.runtime.dynaform.form.ejb.InputField" id="11e7-6476-6441511a-9525-2f2f151b7063" text="text" name="姓名" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>流程催办历史描述：</p>
+            <p><img classname="cn.myapps.runtime.dynaform.form.ejb.FlowReminderHistoryField" src="images/flowreminderhistoryfield.png" id="11e7-64a8-4f5b3519-9525-2f2f151b7063" type="flowreminderhistoryfield" name="流程催办历史_描述" discript="流程催办历史_描述" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>流程催办历史隐藏时显示值：</p>
+            <p><img classname="cn.myapps.runtime.dynaform.form.ejb.FlowReminderHistoryField" src="images/flowreminderhistoryfield.png" id="11e7-64a8-8744b6eb-9525-2f2f151b7063" type="flowreminderhistoryfield" name="流程催办历史_隐藏时显示值" discript="" hiddenscript="true;" hiddenvalue="隐藏时显示值" hiddenprintscript="" printhiddenvalue="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>﻿流程催办历史打印时隐藏显示值<a id="fck_paste_padding">﻿:</a></p>
+            <p><img classname="cn.myapps.runtime.dynaform.form.ejb.FlowReminderHistoryField" src="images/flowreminderhistoryfield.png" id="11e7-64a8-e828557d-9525-2f2f151b7063" type="flowreminderhistoryfield" name="流程催办历史_打印隐藏时显示值" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="true;" printhiddenvalue="打印隐藏时显示值" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <showWaterMark>false</showWaterMark>
+    <version>5</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"流程催办历史控件_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

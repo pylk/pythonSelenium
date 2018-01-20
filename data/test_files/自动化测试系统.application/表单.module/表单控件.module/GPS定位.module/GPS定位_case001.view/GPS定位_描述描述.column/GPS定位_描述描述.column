@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<column id="11e7-7022-8c7fe3c4-966a-876161d2b77c">
+    <name>GPS定位_描述描述</name>
+    <parentId>11e7-7022-8c7fbcb2-966a-876161d2b77c</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <parentView>11e7-7022-8c7fbcb2-966a-876161d2b77c</parentView>
+    <type>COLUMN_TYPE_FIELD</type>
+    <formid>11e7-670b-bfbbdb09-bb6a-ff15ffadffa1</formid>
+    <fieldName>GPS定位_描述</fieldName>
+    <flowReturnCss>false</flowReturnCss>
+    <orderno>1</orderno>
+    <sum>false</sum>
+    <total>false</total>
+    <isOrderByField>false</isOrderByField>
+    <clickSorting>true</clickSorting>
+    <thouSign>false</thouSign>
+    <color>000000</color>
+    <fontSize>12</fontSize>
+    <groundColor>FFFFFF</groundColor>
+    <showIcon>false</showIcon>
+    <iconMapping></iconMapping>
+    <visible>true</visible>
+    <visible4ExpExcel>true</visible4ExpExcel>
+    <visible4Print>true</visible4Print>
+    <visible4PagePrint>true</visible4PagePrint>
+    <showType>01</showType>
+    <displayType>00</displayType>
+    <displayLength>-1</displayLength>
+    <showTitle>true</showTitle>
+</column>

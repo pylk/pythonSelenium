@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-6879-206b8c1e-8a83-bf38d96990bd">
+    <name>表单按钮_打印导出下载等</name>
+    <parentId>11e7-6616-260fe9cd-9cdb-af6bc8266ed2</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>150002551023400000</sortId>
+    <templatecontext><![CDATA[<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <caption>按钮测试用例-打印导出下载</caption>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>名称：</p>
+            <p><input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-687a-32c9e432-8a83-bf38d96990bd" text="text" name="单行文本" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">普通的单行文本</td>
+        </tr>
+    </tbody>
+</table>]]></templatecontext>
+    <discription>网页打印、自定义打印、PDF导出、文件下载</discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>6</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"表单按钮_打印导出下载等","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

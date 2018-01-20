@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activity id="11e7-78e0-edb133e5-b13e-0fc17401b408">
+    <name>自定义-动作执行脚本</name>
+    <parentId>11e7-78df-22c5d565-b13e-0fc17401b408</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <type>13</type>
+    <onActionForm></onActionForm>
+    <onActionView></onActionView>
+    <onActionFlow></onActionFlow>
+    <onActionPrint></onActionPrint>
+    <colorType>default</colorType>
+    <beforeActionScript><![CDATA[]]></beforeActionScript>
+    <afterActionScript><![CDATA[]]></afterActionScript>
+    <hiddenScript><![CDATA[]]></hiddenScript>
+    <readonlyScript><![CDATA[]]></readonlyScript>
+    <startFlowScript><![CDATA[]]></startFlowScript>
+    <editMode>0</editMode>
+    <flowShowType>ST01</flowShowType>
+    <fileNameScript><![CDATA[]]></fileNameScript>
+    <orderno>12</orderno>
+    <stateToShow></stateToShow>
+    <parentForm>11e7-78df-22c5d565-b13e-0fc17401b408</parentForm>
+    <impmappingconfigid></impmappingconfigid>
+    <jumpType>0</jumpType>
+    <expSub>true</expSub>
+    <icon></icon>
+    <disableFlowNode>true</disableFlowNode>
+    <changeFlowOperator>true</changeFlowOperator>
+    <changeFlowCc>true</changeFlowCc>
+    <multiLanguageLabel></multiLanguageLabel>
+    <dispatcherMode>0</dispatcherMode>
+    <dispatcherUrl><![CDATA[]]></dispatcherUrl>
+    <dispatcherParams><![CDATA[]]></dispatcherParams>
+    <jumpMode>0</jumpMode>
+    <jumpActOpenType>0</jumpActOpenType>
+    <withOld>false</withOld>
+    <actionType>0</actionType>
+    <actionDispatcherUrlScript><![CDATA[]]></actionDispatcherUrlScript>
+    <actionSelection>0</actionSelection>
+    <relatedFormId>选择</relatedFormId>
+    <actionScript><![CDATA[var process=getDocumentProcess();
+var doc=getCurrentDocument();
+doc.findItem("自定义动作执行脚本结果").setValue("自定义动作执行脚本已成功执行");
+process.doUpdate(doc);]]></actionScript>
+    <workFlowType>0</workFlowType>
+    <contextMenu>false</contextMenu>
+    <showInToolbar>true</showInToolbar>
+    <transpond>选择</transpond>
+    <targetList></targetList>
+</activity>

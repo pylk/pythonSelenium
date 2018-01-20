@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pageWidget id="11e7-6c6a-c01600e8-af7b-510e9c33aad3">
+    <name>通过脚本抄送</name>
+    <parentId>11e7-5f98-d7d66840-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <type>summary</type>
+    <moduleid></moduleid>
+    <actionContent><![CDATA[11e7-6c69-aca01e31-af7b-510e9c33aad3]]></actionContent>
+    <width></width>
+    <height></height>
+    <authMode>0</authMode>
+    <authRolesId></authRolesId>
+    <authRolesName></authRolesName>
+    <published>true</published>
+    <icon>{"icon":"if-lib icon-xinwenxinxi","icontype":"font","iconFontColor":"#000"}</icon>
+    <titleColor>#000</titleColor>
+    <titleBColor></titleBColor>
+    <iconShow>false</iconShow>
+    <widgetType>0</widgetType>
+    <orderno>0</orderno>
+</pageWidget>

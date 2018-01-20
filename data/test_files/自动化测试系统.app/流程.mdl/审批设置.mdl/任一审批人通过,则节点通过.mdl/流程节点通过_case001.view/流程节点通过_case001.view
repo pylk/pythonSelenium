@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<view id="11e7-6634-756b05a4-8f1a-bfe936d3ae2a">
+    <name>流程节点通过_case001</name>
+    <parentId>11e7-6634-0272f420-8f1a-bfe936d3ae2a</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <openType>1</openType>
+    <pagination>true</pagination>
+    <pagelines>10</pagelines>
+    <editMode>00</editMode>
+    <showTotalRow>true</showTotalRow>
+    <relatedForm>11e7-6634-28bff244-8f1a-bfe936d3ae2a</relatedForm>
+    <refresh>false</refresh>
+    <lastmodifytime>2017-07-11T00:00:00+08:00</lastmodifytime>
+    <readonly>false</readonly>
+    <viewType>1</viewType>
+    <country></country>
+    <province></province>
+    <city></city>
+    <town></town>
+    <level>4</level>
+    <isroute>false</isroute>
+    <permissionType>public</permissionType>
+</view>

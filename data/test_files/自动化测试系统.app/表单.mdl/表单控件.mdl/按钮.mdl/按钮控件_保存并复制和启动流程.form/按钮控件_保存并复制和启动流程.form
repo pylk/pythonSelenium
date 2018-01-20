@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-736a-fcda4541-966a-876161d2b77c">
+    <name>按钮控件_保存并复制和启动流程</name>
+    <parentId>11e7-67a6-d51b2f7f-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>150122890039800000</sortId>
+    <templatecontext><![CDATA[<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <caption>按钮测试用例-保存类</caption>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>名称：<input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-687f-f8719ca3-8a83-bf38d96990bd" text="text" name="单行文本" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">普通的单行文本</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);" colspan="2"><br type="_moz" />
+            <input classname="cn.myapps.core.dynaform.form.ejb.ButtonField" id="11e7-6880-e10d30aa-8a83-bf38d96990bd" type="button" value="保存" name="保存" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" calculateonrefresh="false" mobile="true" filenamescript="" statetoshow="" approvelimit="" beforeactionscript="" afteractionscript="" dispatcherurl="" dispatchermode="0" dispatcherparams="" acttype="34" actionview="" actionform="" actionflow="" transpond="" actionprint="" jumptype="0" jumpmode="0" jumpactopentype="0" targetlist="" flowmode="2" withold="false" startflowscript="" flowshowtype="ST01" refreshmode="0" refreshfields="" impmappingconfigid="" />&nbsp;&nbsp;<input classname="cn.myapps.core.dynaform.form.ejb.ButtonField" id="11e7-6880-eb9284db-8a83-bf38d96990bd" type="button" value="保存并返回" name="保存并返回" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" calculateonrefresh="false" mobile="true" filenamescript="" statetoshow="" approvelimit="" beforeactionscript="" afteractionscript="" dispatcherurl="" dispatchermode="0" dispatcherparams="" acttype="11" actionview="" actionform="" actionflow="" transpond="" actionprint="" jumptype="0" jumpmode="0" jumpactopentype="0" targetlist="" flowmode="2" withold="false" startflowscript="" flowshowtype="ST01" refreshmode="0" refreshfields="" impmappingconfigid="" />&nbsp;&nbsp;<input classname="cn.myapps.core.dynaform.form.ejb.ButtonField" id="11e7-6880-f6432ecc-8a83-bf38d96990bd" type="button" value="保存并新建" name="保存并新建" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" calculateonrefresh="false" mobile="true" filenamescript="" statetoshow="" approvelimit="" beforeactionscript="" afteractionscript="" dispatcherurl="" dispatchermode="0" dispatcherparams="" acttype="42" actionview="" actionform="" actionflow="" transpond="" actionprint="" jumptype="0" jumpmode="0" jumpactopentype="0" targetlist="" flowmode="2" withold="false" startflowscript="" flowshowtype="ST01" refreshmode="0" refreshfields="" impmappingconfigid="" />&nbsp;&nbsp;<input classname="cn.myapps.core.dynaform.form.ejb.ButtonField" id="11e7-6881-04beea7d-8a83-bf38d96990bd" type="button" value="保存草稿" name="保存草稿" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" calculateonrefresh="false" mobile="true" filenamescript="" statetoshow="" approvelimit="" beforeactionscript="" afteractionscript="" dispatcherurl="" dispatchermode="0" dispatcherparams="" acttype="19" actionview="" actionform="" actionflow="" transpond="" actionprint="" jumptype="0" jumpmode="0" jumpactopentype="0" targetlist="" flowmode="2" withold="false" startflowscript="" flowshowtype="ST01" refreshmode="0" refreshfields="" impmappingconfigid="" />&nbsp;&nbsp;<input classname="cn.myapps.core.dynaform.form.ejb.ButtonField" id="11e7-6881-0bcccb2e-8a83-bf38d96990bd" type="button" value="保存并复制" name="保存并复制" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" calculateonrefresh="false" mobile="true" filenamescript="" statetoshow="" approvelimit="" beforeactionscript="" afteractionscript="" dispatcherurl="" dispatchermode="0" dispatcherparams="" acttype="21" actionview="" actionform="" actionflow="" transpond="" actionprint="" jumptype="0" jumpmode="0" jumpactopentype="0" targetlist="" flowmode="2" withold="false" startflowscript="" flowshowtype="ST01" refreshmode="0" refreshfields="" impmappingconfigid="" />&nbsp;&nbsp;</td>
+        </tr>
+    </tbody>
+</table>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>1</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"按钮控件_保存并复制和启动流程","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

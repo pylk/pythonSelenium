@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<view id="11e7-7e63-c71985cc-bfd3-4d11407a88d7">
+    <name>自由流程</name>
+    <parentId>11e7-7e62-7382dbfc-bfd3-4d11407a88d7</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <openType>1</openType>
+    <pagination>true</pagination>
+    <pagelines>10</pagelines>
+    <editMode>00</editMode>
+    <showTotalRow>true</showTotalRow>
+    <relatedForm>11e7-7e62-c1b886f6-bfd3-4d11407a88d7</relatedForm>
+    <refresh>false</refresh>
+    <lastmodifytime>2017-08-11T00:00:00+08:00</lastmodifytime>
+    <readonly>false</readonly>
+    <viewType>1</viewType>
+    <country></country>
+    <province></province>
+    <city></city>
+    <town></town>
+    <level>4</level>
+    <isroute>false</isroute>
+    <permissionType>public</permissionType>
+</view>

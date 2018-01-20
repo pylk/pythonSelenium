@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<column id="11e7-78e3-f8962c88-b13e-0fc17401b408">
+    <name>存放执行前脚本的值</name>
+    <parentId>11e7-78e3-f87f7037-b13e-0fc17401b408</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <parentView>11e7-78e3-f87f7037-b13e-0fc17401b408</parentView>
+    <type>COLUMN_TYPE_FIELD</type>
+    <formid>11e7-78df-22c5d565-b13e-0fc17401b408</formid>
+    <fieldName>执行前脚本结果</fieldName>
+    <flowReturnCss>false</flowReturnCss>
+    <orderno>0</orderno>
+    <sum>false</sum>
+    <total>false</total>
+    <isOrderByField>false</isOrderByField>
+    <clickSorting>true</clickSorting>
+    <thouSign>false</thouSign>
+    <color>000000</color>
+    <fontSize>12</fontSize>
+    <groundColor>FFFFFF</groundColor>
+    <showIcon>false</showIcon>
+    <iconMapping></iconMapping>
+    <visible>true</visible>
+    <visible4ExpExcel>true</visible4ExpExcel>
+    <visible4Print>true</visible4Print>
+    <visible4PagePrint>true</visible4PagePrint>
+    <showType>01</showType>
+    <displayType>00</displayType>
+    <displayLength>-1</displayLength>
+    <showTitle>true</showTitle>
+</column>

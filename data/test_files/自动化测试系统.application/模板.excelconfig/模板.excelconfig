@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<impMappingConfigVO id="IynOn3U8buOnhRuKEgV">
+    <name>模板</name>
+    <parentId>11e7-5f98-d7d66840-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <xml><![CDATA[<cn.myapps.core.dynaform.dts.excelimport.ExcelMappingDiagram>
+<flowstatus>16</flowstatus>
+<flowpath></flowpath>
+<deleteMSG></deleteMSG>
+<TOP_ALIGNMENT>0.0</TOP_ALIGNMENT>
+<CENTER_ALIGNMENT>0.5</CENTER_ALIGNMENT>
+<BOTTOM_ALIGNMENT>1.0</BOTTOM_ALIGNMENT>
+<LEFT_ALIGNMENT>0.0</LEFT_ALIGNMENT>
+<RIGHT_ALIGNMENT>1.0</RIGHT_ALIGNMENT>
+<width>662</width>
+<height>572</height>
+<PROPERTIES>4</PROPERTIES>
+<SOMEBITS>8</SOMEBITS>
+<FRAMEBITS>16</FRAMEBITS>
+<ALLBITS>32</ALLBITS>
+<ERROR>64</ERROR>
+<ABORT>128</ABORT>
+<needRollback>rollback</needRollback>
+<cn.myapps.core.dynaform.dts.excelimport.MasterSheet>
+<formName>表单按钮_打印导出下载等</formName>
+<x>291</x>
+<y>65</y>
+<scale>0</scale>
+<id>1509420759514</id>
+<name>表单按钮_打印导出下载等</name>
+<description></description>
+</cn.myapps.core.dynaform.dts.excelimport.MasterSheet>
+<cn.myapps.core.dynaform.dts.excelimport.Column>
+<fieldName>单行文本</fieldName>
+<valueScript></valueScript>
+<validateRule></validateRule>
+<primaryKey>false</primaryKey>
+<x>100</x>
+<y>100</y>
+<scale>0</scale>
+<id>1509420784776</id>
+<name>单行文本</name>
+<description></description>
+</cn.myapps.core.dynaform.dts.excelimport.Column>
+<cn.myapps.core.dynaform.dts.excelimport.Relation>
+<state></state>
+<startnodeid>1509420759514</startnodeid>
+<endnodeid>1509420784776</endnodeid>
+<ispassed>false</ispassed>
+<isreturn>false</isreturn>
+<condition></condition>
+<pointstack>291;65;100;100</pointstack>
+<scale>0</scale>
+<id>1509420795361</id>
+<name>Relation243</name>
+<description></description>
+</cn.myapps.core.dynaform.dts.excelimport.Relation>
+</cn.myapps.core.dynaform.dts.excelimport.ExcelMappingDiagram>]]></xml>
+    <templatePath>/uploads/exceltemplate/模板.xlsx</templatePath>
+</impMappingConfigVO>

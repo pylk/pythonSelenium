@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-6772-aeb43e70-9f81-63911c9fa2cf">
+    <name>日历视图_case001</name>
+    <parentId>11e7-6772-9b83ad3c-9f81-63911c9fa2cf</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149991279130700000</sortId>
+    <templatecontext><![CDATA[<p>
+<table border="1" cellspacing="2" cellpadding="3" width="474" bgcolor="#ffffff" heihgt="" style="width: 474px; height: 76px; border: 1px solid rgb(180, 204, 238);">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;填单时间：</td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input id="11de-fea1-78271324-8738-97b83bc96cee" value="" name="填单时间" calculateonrefresh="false" valuescript="" classname="cn.myapps.runtime.dynaform.form.ejb.DateField" hiddenscript="" hiddenprintscript="" discript="" authority="false" validatelibs="" editmode="01" filtercondition="" processdescription="[];[]" texttype="text" readonlyscript="" validaterule="" refreshonchanged="false" mobile="true" fieldtype="VALUE_TYPE_DATE" isdatefield="true" limit="false" prev_name="" datepattern="YMD" /></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;结束时间：</td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input id="11de-fea1-8529ea83-8738-97b83bc96cee" value="" name="结束时间" calculateonrefresh="false" valuescript="" classname="cn.myapps.runtime.dynaform.form.ejb.DateField" hiddenscript="" hiddenprintscript="" discript="" authority="false" validatelibs="" editmode="01" filtercondition="" processdescription="[];[]" texttype="text" readonlyscript="" validaterule="" refreshonchanged="false" mobile="true" fieldtype="VALUE_TYPE_DATE" isdatefield="true" limit="false" prev_name="" datepattern="YMD" /></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;备注：</td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<textarea id="11de-fea1-8ec66562-8738-97b83bc96cee" calculateonrefresh="false" valuescript="" classname="cn.myapps.runtime.dynaform.form.ejb.TextareaField" hiddenscript="" hiddenprintscript="" discript="" authority="false" validatelibs="" editmode="01" filtercondition="" processdescription="[];[]" readonlyscript="" validaterule="" refreshonchanged="false" mobile="true" fieldtype="VALUE_TYPE_TEXT" bordertype="false" name="备注"></textarea></td>
+        </tr>
+    </tbody>
+</table>
+</p>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <showWaterMark>false</showWaterMark>
+    <version>2</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"日历视图_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<column id="11e7-8eed-731a5b7e-bfc7-fd7b73250252">
+    <name>图片上传_自定义存放路径</name>
+    <parentId>11e7-8eed-731a5b78-bfc7-fd7b73250252</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <parentView>11e7-8eed-731a5b78-bfc7-fd7b73250252</parentView>
+    <type>COLUMN_TYPE_FIELD</type>
+    <formid>11e7-6708-347547e1-9f81-63911c9fa2cf</formid>
+    <fieldName>图片上传_自定义存放路径</fieldName>
+    <flowReturnCss>false</flowReturnCss>
+    <orderno>5</orderno>
+    <sum>false</sum>
+    <total>false</total>
+    <isOrderByField>false</isOrderByField>
+    <clickSorting>true</clickSorting>
+    <thouSign>false</thouSign>
+    <color>000000</color>
+    <fontSize>12</fontSize>
+    <groundColor>FFFFFF</groundColor>
+    <showIcon>false</showIcon>
+    <iconMapping></iconMapping>
+    <visible>true</visible>
+    <visible4ExpExcel>true</visible4ExpExcel>
+    <visible4Print>true</visible4Print>
+    <visible4PagePrint>true</visible4PagePrint>
+    <showType>01</showType>
+    <displayType>00</displayType>
+    <displayLength>-1</displayLength>
+    <showTitle>true</showTitle>
+</column>

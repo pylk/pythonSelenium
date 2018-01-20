@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-6708-9384c26c-9f81-63911c9fa2cf">
+    <name>图片上传</name>
+    <parentId>11e7-5f9f-cc816447-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[图片上传]]></description>
+    <multiLanguageLabel></multiLanguageLabel>
+    <type>00</type>
+    <opentarget>detail</opentarget>
+    <ico>{"icon":"/portal/H5/resource/images/icon_menu_default.png","icontype":"img"}</ico>
+    <superior>11e7-5f9f-cc816447-917f-e799edecb417</superior>
+    <linkName>图片上传</linkName>
+    <linkType>00</linkType>
+    <moduleid>11e7-6703-e86d7678-9f81-63911c9fa2cf</moduleid>
+    <directory>portal</directory>
+    <actionContent><![CDATA[11e7-6708-347547e1-9f81-63911c9fa2cf]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>19</orderno>
+</resourceVO>

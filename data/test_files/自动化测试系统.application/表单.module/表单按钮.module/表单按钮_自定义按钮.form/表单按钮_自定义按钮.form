@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-687a-b2f8385c-8a83-bf38d96990bd">
+    <name>表单按钮_自定义按钮</name>
+    <parentId>11e7-6616-260fe9cd-9cdb-af6bc8266ed2</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>150002618560000000</sortId>
+    <templatecontext><![CDATA[<p>&nbsp;名称<input classname="cn.myapps.runtime.dynaform.form.ejb.InputField" id="11e7-687a-b0bbb5d8-8a83-bf38d96990bd" text="text" name="名称" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" bordertype="false" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="true" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" readonlyshowvalonly="true" refreshmode="0" refreshfields="" /></p>
+<p>状态：<input classname="cn.myapps.runtime.dynaform.form.ejb.RadioField" id="11e7-687a-b0bcee59-8a83-bf38d96990bd" type="radio" name="状态" discript="" valuescript="" optionsscript="@quot;未更新;已更新@quot;;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" layout="horizontal" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" filtercondition="" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" validatelibs="" editmode="01" processdescription="[];[]" optionseditmode="01" dialogview="" module="" optionsvalue="" optionstext="" /></p>
+<p>&nbsp;</p>]]></templatecontext>
+    <discription>自定义</discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <showWaterMark>false</showWaterMark>
+    <version>3</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"表单按钮_自定义按钮","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

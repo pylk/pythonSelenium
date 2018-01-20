@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-676f-bf87ad13-bb6a-ff15ffadffa1">
+    <name>左右选择框_case001</name>
+    <parentId>11e7-6705-307af04f-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149991153104600000</sortId>
+    <templatecontext><![CDATA[<p style="text-align: center;">&nbsp; 表单测试用例-左右框</p>
+<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><input classname="cn.myapps.core.dynaform.form.ejb.InputField" id="11e7-7015-dd0ed3ca-af7b-510e9c33aad3" text="text" name="单行文本" texttype="text" fieldtype="VALUE_TYPE_VARCHAR" fieldkeyevent="Tabkey" readonlyshowvalonly="true" discript="" validaterule="" valuescript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" refreshonchanged="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" numberpattern="" processdescription="[];[]" filtercondition="" validatelibs="" editmode="01" refreshmode="0" refreshfields="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">输入隐藏，测试重计算左右选择框是否会隐藏</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>﻿刷新：<a id="fck_paste_padding">﻿</a></p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-6775-f05a65c5-bb6a-ff15ffadffa1" name="左右框_刷新" refreshonchanged="true" isdefaultvalue="false" calculateonrefresh="false" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;左右框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;左右框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;左右框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;左右框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;左右框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;左右框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()@amp;#13;" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">勾选&lsquo;刷新&rsquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;重计算：</p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-6775-fef198be-bb6a-ff15ffadffa1" name="左右框_重计算" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="true" valuescript="(function(){&#10;&#9;var rtn = getItemValue(&quot;左右框_刷新&quot;);&#10;&#9;return rtn;&#10;})()" validaterule="" hiddenscript="(function(){@amp;#13;var@nbsp;rtn@nbsp;=@nbsp;getItemValue(@quot;单行文本@quot;);@nbsp;@amp;#13;var@nbsp;bool@nbsp;=@nbsp;false;@amp;#13;if(rtn@nbsp;==@nbsp;@quot;隐藏@quot;){@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;bool@nbsp;=@nbsp;true;@amp;#13;}@amp;#13;return@nbsp;bool;@amp;#13;})()" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;左右框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;左右框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;左右框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;左右框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;左右框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;左右框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()@amp;#13;" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;﻿勾选&lsquo;重计算&rsquo;<a id="fck_paste_padding">﻿值脚本</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;描述：</p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-6775-e0b2d476-bb6a-ff15ffadffa1" name="左右框_描述" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="左右框_描述" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;左右框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;左右框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;左右框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;左右框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;左右框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;左右框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;描述值验证</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;值设计验证：</p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-6775-ceca2beb-bb6a-ff15ffadffa1" name="左右框_值脚本" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="true" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;左右框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;左右框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;左右框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;左右框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;左右框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;左右框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="var@nbsp;doc=@nbsp;$CURRDOC.getCurrDoc();@amp;#13;(doc.getItemValueAsString(@#146;单行文本@#146;));" processdescription="[{@quot;text@quot;:@#146;左右框_名称@#146;,@quot;value@quot;:@#146;VALUE_TYPE_VARCHAR@#146;},{@quot;text@quot;:@#146;左右框_刷新@#146;,@quot;value@quot;:@#146;VALUE_TYPE_VARCHAR@#146;},{@quot;text@quot;:@#146;左右框_描述@#146;,@quot;value@quot;:@#146;VALUE_TYPE_VARCHAR@#146;},{@quot;text@quot;:@#146;单行文本@#146;,@quot;value@quot;:@#146;VALUE_TYPE_VARCHAR@#146;}];[单行文本]" validatelibs="" editmode="00" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;值设计</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>值脚本验证：</p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-67ce-d5b21093-bb6a-ff15ffadffa1" name="左右选择框_值脚本" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" valuescript="&quot;2&quot;;" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;左右框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;左右框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;左右框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;左右框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;左右框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;左右框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿ 值脚本<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>﻿值IsDefaultValue<a id="fck_paste_padding">﻿验证：</a></p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-67ce-f9207ff6-bb6a-ff15ffadffa1" name="左右选择框_值IsDefaultValue" refreshonchanged="false" isdefaultvalue="true" calculateonrefresh="false" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" optionsscript="" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;值IsDefaultValue</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;选项脚本设计模式：</p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-6775-bbf6fd2e-bb6a-ff15ffadffa1" name="左右框_选项脚本设计模式" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" optionsscript="" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" optionseditmode="00" dialogview="11e7-65fc-33a47841-8f1a-bfe936d3ae2a" module="11e7-6167-730d0ba3-991c-c72710268258" optionsvalue="11e7-65fc-33a47842-8f1a-bfe936d3ae2a" refreshmode="0" refreshfields="" optionstext="11e7-65fc-33a47843-8f1a-bfe936d3ae2a"></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;﻿选项脚本设计模式<a id="fck_paste_padding">﻿验证</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>﻿选项脚本<a id="fck_paste_padding">﻿：</a></p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-67cf-1beff085-bb6a-ff15ffadffa1" name="左右选择框_选项脚本" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" optionsscript="var@nbsp;opts=createOptions();@amp;#13;opts.add(@quot;选择框1@quot;,@quot;1@quot;);@amp;#13;opts.add(@quot;选择框2@quot;,@quot;2@quot;);@amp;#13;opts.add(@quot;选择框3@quot;,@quot;3@quot;);@amp;#13;opts.add(@quot;选择框4@quot;,@quot;4@quot;);@amp;#13;opts.add(@quot;选择框5@quot;,@quot;5@quot;);@amp;#13;opts.add(@quot;选择框6@quot;,@quot;6@quot;);@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;opts;" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿ 选项脚本验证<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;非空校验：</p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-6775-9a6d05e6-bb6a-ff15ffadffa1" name="左右框_非空校验" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;左右框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;左右框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;左右框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;左右框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;左右框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;左右框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="" processdescription="[];[]" validatelibs="core.dynaform.form.formfield.validate.checkEmpty_system" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;﻿非空校验<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;﻿隐藏时显示值：<a id="fck_paste_padding">﻿</a></p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-6775-3d330dce-bb6a-ff15ffadffa1" name="左右框_隐藏时显示值" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" valuescript="" validaterule="" hiddenscript="true;" hiddenvalue="控件已隐藏" hiddenprintscript="" printhiddenvalue="" readonlyscript="" discript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;左右框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;左右框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;左右框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;左右框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;左右框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;左右框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;隐藏时显示值：控件已隐藏</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;﻿打印隐藏时显示值：<a id="fck_paste_padding">﻿</a></p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-6775-1324c1ec-bb6a-ff15ffadffa1" name="左右框_打印隐藏时显示值" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="true;" printhiddenvalue="打印隐藏时显示值" readonlyscript="" discript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;左右框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;左右框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;左右框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;左右框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;左右框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;左右框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding" style="box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(99, 99, 101); cursor: pointer; outline: none; font-family: &quot;Microsoft YaHei&quot;, PingHei, &quot;Hiragino Sans GB&quot;, &quot;Lucida Grande&quot;, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">打印隐藏时显示值﻿</a><a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>&nbsp;﻿只读条件：<a id="fck_paste_padding">﻿</a></p>
+            <p><select classname="cn.myapps.core.dynaform.form.ejb.SelectAboutField" multiple="" id="11e7-6774-b80d35b4-bb6a-ff15ffadffa1" name="左右框_只读条件" refreshonchanged="false" isdefaultvalue="false" calculateonrefresh="false" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="true;" discript="" optionsscript="(function(){@amp;#13;&#9;var@nbsp;opts=createOptions();@amp;#13;&#9;opts.add(@quot;左右框1@quot;,@quot;1@quot;);@amp;#13;&#9;opts.add(@quot;左右框2@quot;,@quot;2@quot;);@amp;#13;&#9;opts.add(@quot;左右框3@quot;,@quot;3@quot;);@amp;#13;&#9;opts.add(@quot;左右框4@quot;,@quot;4@quot;);@amp;#13;&#9;opts.add(@quot;左右框5@quot;,@quot;5@quot;);@amp;#13;&#9;opts.add(@quot;左右框6@quot;,@quot;6@quot;);@amp;#13;&#9;return@nbsp;opts;@amp;#13;})()" fieldtype="VALUE_TYPE_VARCHAR" isselectaboutfield="true" filtercondition="" processdescription="[];[]" validatelibs="" editmode="01" optionseditmode="01" dialogview="" module="" optionsvalue="" refreshmode="0" refreshfields="" optionstext=""></select></p>
+            </td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿只读条件为&rsquo;true&lsquo;&nbsp;<a id="fck_paste_padding">﻿</a>&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <version>20</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"左右选择框_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

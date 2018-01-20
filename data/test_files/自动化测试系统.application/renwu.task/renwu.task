@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<task id="11e7-6a8e-118af8f6-ac25-e92914e59bab">
+    <name>renwu</name>
+    <parentId>11e7-5f98-d7d66840-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <type>1</type>
+    <description><![CDATA[]]></description>
+    <runningTime>2017-07-19T00:00:00+08:00</runningTime>
+    <period>0</period>
+    <runtimes>1</runtimes>
+    <terminateScript><![CDATA[]]></terminateScript>
+    <taskScript><![CDATA[]]></taskScript>
+    <modifyTime>2017-07-17T00:00:00+08:00</modifyTime>
+    <creator>Admin</creator>
+    <creatorid>11e7-5f98-d799fb7f-917f-e799edecb417</creatorid>
+    <totalRuntimes>0</totalRuntimes>
+    <state>0</state>
+    <startupType>0</startupType>
+    <dayOfMonth>1</dayOfMonth>
+    <repeatTimes>0</repeatTimes>
+    <frequency>0</frequency>
+    <executedCount>0</executedCount>
+</task>

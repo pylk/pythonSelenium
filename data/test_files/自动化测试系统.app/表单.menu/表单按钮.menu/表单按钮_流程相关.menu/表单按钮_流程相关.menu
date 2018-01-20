@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-7210-45c04096-966a-876161d2b77c">
+    <name>表单按钮_流程相关</name>
+    <parentId>11e7-661c-36042c58-9cdb-af6bc8266ed2</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[表单按钮_流程相关]]></description>
+    <type>00</type>
+    <superior>11e7-661c-36042c58-9cdb-af6bc8266ed2</superior>
+    <linkName>表单按钮_流程相关</linkName>
+    <linkType>01</linkType>
+    <moduleid>11e7-6616-260fe9cd-9cdb-af6bc8266ed2</moduleid>
+    <actionContent><![CDATA[11e7-7210-37559ca7-966a-876161d2b77c]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>0</orderno>
+</resourceVO>

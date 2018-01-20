@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<multiLanguage id="11e7-66eb-142b29b8-bb6a-ff15ffadffa1">
+    <name>textItem</name>
+    <parentId>11e7-5f98-d7d66840-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <type>2</type>
+    <label>textItem</label>
+    <text>网格视图_单行文本框</text>
+</multiLanguage>

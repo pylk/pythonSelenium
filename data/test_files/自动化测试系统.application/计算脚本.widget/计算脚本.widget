@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pageWidget id="11e7-67a1-57faa8f0-bb6a-ff15ffadffa1">
+    <name>计算脚本</name>
+    <parentId>11e7-5f98-d7d66840-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <type>iscript</type>
+    <moduleid></moduleid>
+    <actionContent><![CDATA["<a href='https://www.baidu.com'>百度一下</a>"]]></actionContent>
+    <width></width>
+    <height></height>
+    <authMode>0</authMode>
+    <authRolesId></authRolesId>
+    <authRolesName></authRolesName>
+    <published>true</published>
+    <icon>{"icon":"if-lib icon-xinwenxinxi","icontype":"font","iconFontColor":"#000"}</icon>
+    <titleColor>#000</titleColor>
+    <titleBColor></titleBColor>
+    <iconShow>false</iconShow>
+    <widgetType>0</widgetType>
+    <orderno>7</orderno>
+</pageWidget>

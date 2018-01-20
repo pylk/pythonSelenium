@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pageWidget id="11e7-67a0-f2fd635a-bb6a-ff15ffadffa1">
+    <name>交叉报表</name>
+    <parentId>11e7-5f98-d7d66840-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <type>report</type>
+    <moduleid>11e7-6796-79142c51-bb6a-ff15ffadffa1</moduleid>
+    <actionContent><![CDATA[11e7-6797-2e8ec2ca-bb6a-ff15ffadffa1]]></actionContent>
+    <width></width>
+    <height></height>
+    <authMode>0</authMode>
+    <authRolesId></authRolesId>
+    <authRolesName></authRolesName>
+    <published>true</published>
+    <icon>{"icon":"if-lib icon-xinwenxinxi","icontype":"font","iconFontColor":"#000"}</icon>
+    <titleColor>#000</titleColor>
+    <titleBColor></titleBColor>
+    <iconShow>false</iconShow>
+    <widgetType>0</widgetType>
+    <orderno>6</orderno>
+</pageWidget>

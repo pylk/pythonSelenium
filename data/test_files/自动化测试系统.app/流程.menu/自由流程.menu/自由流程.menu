@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-7e63-fd613eab-bfd3-4d11407a88d7">
+    <name>自由流程</name>
+    <parentId>11e7-661c-cf436fc1-8f1a-bfe936d3ae2a</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[自由流程]]></description>
+    <type>00</type>
+    <superior>11e7-661c-cf436fc1-8f1a-bfe936d3ae2a</superior>
+    <linkName>自由流程</linkName>
+    <linkType>01</linkType>
+    <moduleid>11e7-7e62-7382dbfc-bfd3-4d11407a88d7</moduleid>
+    <actionContent><![CDATA[11e7-7e63-c71985cc-bfd3-4d11407a88d7]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>0</orderno>
+</resourceVO>

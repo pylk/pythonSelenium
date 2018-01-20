@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<module id="11e7-6626-72c31f30-8f1a-bfe936d3ae2a">
+    <name>流程审批送出并行默认选中并锁定</name>
+    <parentId>11e7-6779-542ba718-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[]]></description>
+    <orderNo>0</orderNo>
+    <superior>11e7-6779-542ba718-bb6a-ff15ffadffa1</superior>
+</module>

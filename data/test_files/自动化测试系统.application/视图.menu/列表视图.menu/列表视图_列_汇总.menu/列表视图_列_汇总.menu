@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-66fb-3db117c8-bb6a-ff15ffadffa1">
+    <name>列表视图_列_汇总</name>
+    <parentId>11e7-6224-48e32631-991c-c72710268258</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[列表视图_列_汇总]]></description>
+    <multiLanguageLabel></multiLanguageLabel>
+    <type>00</type>
+    <opentarget>detail</opentarget>
+    <ico>{"icon":"/portal/H5/resource/images/icon_menu_default.png","icontype":"img"}</ico>
+    <superior>11e7-6224-48e32631-991c-c72710268258</superior>
+    <linkName>列表视图_列_汇总</linkName>
+    <linkType>01</linkType>
+    <moduleid>11e7-6167-8e3eb74e-991c-c72710268258</moduleid>
+    <directory>portal</directory>
+    <actionContent><![CDATA[11e7-66ed-5cec1f7e-bb6a-ff15ffadffa1]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>26</orderno>
+</resourceVO>

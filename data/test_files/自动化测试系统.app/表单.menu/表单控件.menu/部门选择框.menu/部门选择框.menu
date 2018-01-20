@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-661a-2040a5f2-9cdb-af6bc8266ed2">
+    <name>部门选择框</name>
+    <parentId>11e7-5f9f-cc816447-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[部门选择框]]></description>
+    <multiLanguageLabel></multiLanguageLabel>
+    <type>00</type>
+    <opentarget>detail</opentarget>
+    <ico>{"icon":"/portal/H5/resource/images/icon_menu_default.png","icontype":"img"}</ico>
+    <superior>11e7-5f9f-cc816447-917f-e799edecb417</superior>
+    <linkName>部门选择框</linkName>
+    <linkType>00</linkType>
+    <moduleid>11e7-6704-af7526f9-bb6a-ff15ffadffa1</moduleid>
+    <directory>portal</directory>
+    <actionContent><![CDATA[11e7-6710-51fcf776-bb6a-ff15ffadffa1]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>7</orderno>
+</resourceVO>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-62c6-1a9f6631-9ee0-b79780204dd6">
+    <name>日期选择框_case001</name>
+    <parentId>11e7-62c4-726d30a1-9ee0-b79780204dd6</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149939886477900000</sortId>
+    <templatecontext><![CDATA[<p>&nbsp;</p>
+<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62c4-e2a70cbf-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_名称" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="Y" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿判断是否为日期类型</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62c9-33c0c800-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_显示只读" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="readonly" filtercondition="" datepattern="Y" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿显示设置为&lsquo;只读&rsquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62c9-407446d2-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_显示隐藏" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="hidden" filtercondition="" datepattern="Y" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿显示设置为&lsquo;隐藏&rsquo;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62c9-545367af-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_格式年" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="Y" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">格式为&quot;yyyy&quot;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62c9-5c9a3d91-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_格式年月" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="YMD" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿格式为&quot;yyyy-MM&quot;</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62c9-68acc174-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_格式年月日" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="YMD" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding">﻿</a><a id="fck_paste_padding">﻿格式为&quot;yyyy-MM-dd&quot;</a><a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62c9-7fea7676-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_格式年到秒" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="YMD_HMS" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding">格式为&quot;yyyy-MM-dd %h%m%s&quot;</a><a id="fck_paste_padding">﻿</a><a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62c9-905be7a8-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_格式时分秒" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="HMS" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding">格式为&quot;%h%m%s&quot;</a><a id="fck_paste_padding">﻿</a><a id="fck_paste_padding">﻿</a><a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62c9-bbcb2346-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_只读时仅显示值" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="true;" texttype="text" filtercondition="" datepattern="YMD" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿只读时仅显示值<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62db-c052c856-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="开始日期" refreshonchanged="true" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="YMD" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" />到<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62db-d5210408-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="结束日期" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="true" mobile="true" limit="true" prev_name="开始日期" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="YMD" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">刷新_重计算</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62c9-cc877fb0-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_描述" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="日期选择框_描述" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="YMD" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿描述值验证<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-67cb-88ca234a-bb6a-ff15ffadffa1" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_值脚本设计模式" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="var doc= $CURRDOC.getCurrDoc();&#10;(doc.getItemValueAsString('日期选择框_名称'));" datepattern="Y" processdescription="[{&quot;text&quot;:'日期选择框_名称',&quot;value&quot;:'日期选择框_名称'}];[日期选择框_名称]" validatelibs="" refreshmode="0" refreshfields="" editmode="00" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">值脚本设计模式</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62ca-100c8059-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_值脚本" refreshonchanged="false" readonlyshowvalonly="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="getToday();" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="readonly" filtercondition="" datepattern="YMD" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿值脚本<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-67cb-ad069101-bb6a-ff15ffadffa1" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_值IsDefaultValue" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="true" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="Y" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">值IsDefaultValue</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62ca-19cab451-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_非空校验" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="YMD" processdescription="[];[]" validatelibs="core.dynaform.form.formfield.validate.checkEmpty_system" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿非空校验<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62d8-2c9c7b56-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_隐藏时显示值" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="true;" hiddenvalue="控件已隐藏" hiddenprintscript="" printhiddenvalue="" readonlyscript="" texttype="text" filtercondition="" datepattern="Y" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿隐藏时显示值<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62d8-63c852a7-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_打印隐藏时显示值" refreshonchanged="false" readonlyshowvalonly="true" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="true;" printhiddenvalue="打印隐藏时显示值" readonlyscript="" texttype="text" filtercondition="" datepattern="Y" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding">打印隐藏时显示值﻿</a><a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);">&nbsp;<input classname="cn.myapps.runtime.dynaform.form.ejb.DateField" id="11e7-62d8-8a194875-9ee0-b79780204dd6" type="text" fieldtype="VALUE_TYPE_DATE" name="日期选择框_只读条件" refreshonchanged="false" readonlyshowvalonly="false" isdefaultvalue="false" calculateonrefresh="false" mobile="true" limit="false" prev_name="" discript="" valuescript="" validaterule="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="true;" texttype="text" filtercondition="" datepattern="Y" processdescription="[];[]" validatelibs="" refreshmode="0" refreshfields="" editmode="01" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿只读条件为&rsquo;true&lsquo;&nbsp;<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <showWaterMark>false</showWaterMark>
+    <version>9</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"日期选择框_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

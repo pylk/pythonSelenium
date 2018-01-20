@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form id="11e7-66f3-604526e2-bb6a-ff15ffadffa1">
+    <name>文件上传_case001</name>
+    <parentId>11e7-66ef-0d16469c-bb6a-ff15ffadffa1</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <sortId>149985811363200000</sortId>
+    <templatecontext><![CDATA[<p>&nbsp;</p>
+<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid rgb(180, 204, 238);">
+    <tbody>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f0-3dfdd9d8-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_名称" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">验证文件上传的类型</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f0-5d399be9-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_限大小" validaterule="" validatelibs="" limitsize="100" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿限制单个上传文件大小</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f0-775bd33a-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_格式" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="01" refreshmode="0" refreshfields="" customizetype="doc;xls" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿上传文件类型</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f0-856a753b-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_限数量1个" validaterule="" validatelibs="" limitsize="" limitnumber="1" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿最大上传数量</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f0-a4e16b8c-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_默认路径" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿存放路径<a id="fck_paste_padding">﻿默认</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f0-c0efbb6d-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_自定义路径" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="01" filecatalog="/test/selenium" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><a id="fck_paste_padding">﻿存放路径自定义/test/selenium</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f0-ce5b66ae-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_刷新" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="true" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">验证刷新</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f1-0c41320e-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_重计算" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="true" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="(function(){@amp;#13;var@nbsp;rtn@nbsp;=@nbsp;getItemValueAsString(@quot;文件上传_刷新@quot;);@nbsp;@amp;#13;var@nbsp;bool@nbsp;=@nbsp;false;@amp;#13;if(rtn!=null@nbsp;@amp;@amp;@nbsp;rtn.length()@gt;0){@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;@amp;#13;@nbsp;@nbsp;@nbsp;@nbsp;@nbsp;bool@nbsp;=@nbsp;true;@amp;#13;}@amp;#13;return@nbsp;bool;@amp;#13;})()" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">验证重计算</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f1-1b5472cc-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_预览可编辑" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">﻿office文档预览时可编辑<a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f2-9d0d69b4-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="true" watermarksupportmode="preview" watermarkscript="var@nbsp;waterMark@nbsp;=@nbsp;@quot;广州天翎科技网络有限公司@quot;;@amp;#13;setWaterMarkImgAndText(@quot;@quot;,waterMark);" name="文件上传_预览水印" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">
+            <p>预览水印</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f2-c242dd55-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="true" watermarksupportmode="print" watermarkscript="setWaterMarkImgAndText(@quot;@quot;,waterMark);" name="文件上传_打印水印" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">打印水印</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f2-ccd1ce76-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_文件排序" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="true" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);"><label for="supportSorting" style="background-image: none; font-family: &quot;Microsoft Sans Serif&quot;, Arial, Helvetica, Verdana;">文件排序功能</label><a id="fck_paste_padding">﻿</a></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f2-d4feb3b7-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_描述" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="文件上传_描述" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">验证描述</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f2-dff2a838-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_非空校验" validaterule="" validatelibs="core.dynaform.form.formfield.validate.checkEmpty_system" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">验证非空</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f3-05dbdb7a-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_隐藏显示值" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="true;" hiddenvalue="控件已隐藏" hiddenprintscript="" printhiddenvalue="" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">条件隐藏显示值</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f3-4f62cb5d-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_打印显示值" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="true;" printhiddenvalue="打印已隐藏" readonlyscript="" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">打印隐藏显示值</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid rgb(180, 204, 238);"><img src="plugins/attachmentuploadfield/attachment.gif" classname="cn.myapps.runtime.dynaform.form.ejb.AttachmentUploadField" id="11e7-66f3-5f4ae84e-bb6a-ff15ffadffa1" type="attachmentupload" fieldtype="VALUE_TYPE_TEXT" openwatermark="false" watermarksupportmode="" watermarkscript="" name="文件上传_条件只读" validaterule="" validatelibs="" limitsize="" limitnumber="10" refreshonchanged="false" calculateonrefresh="false" readonlyshowvalonly="true" mobile="true" previewedit="true" supportsorting="false" discript="" hiddenscript="" hiddenvalue="" hiddenprintscript="" printhiddenvalue="" readonlyscript="true;" filepattern="00" filecatalog="" filetype="00" refreshmode="0" refreshfields="" customizetype="" /></td>
+            <td style="border: 1px solid rgb(180, 204, 238);">条件只读</td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>]]></templatecontext>
+    <discription></discription>
+    <type>1</type>
+    <showLog>false</showLog>
+    <showWaterMark>false</showWaterMark>
+    <version>12</version>
+    <isopenablescript><![CDATA[]]></isopenablescript>
+    <iseditablescript><![CDATA[]]></iseditablescript>
+    <mappingStr><![CDATA[{"formName":"文件上传_case001","tableName":"","columnMappings":[]}]]></mappingStr>
+    <orderno>0</orderno>
+    <permissionType>public</permissionType>
+    <layoutType>horizontal</layoutType>
+</form>

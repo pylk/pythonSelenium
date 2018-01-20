@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<crossReportVO id="11e7-6797-2e8ec2ca-bb6a-ff15ffadffa1">
+    <name>交叉报表</name>
+    <parentId>11e7-6796-79142c51-bb6a-ff15ffadffa1</parentId>
+    <columns>["学生姓名","语文","数学"]</columns>
+    <rows>[]</rows>
+    <datas>["数学"]</datas>
+    <calculationMethod>SUM</calculationMethod>
+    <type>CrossReport</type>
+    <view>11e7-6797-18667658-bb6a-ff15ffadffa1</view>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <displayRow>true</displayRow>
+    <displayCol>true</displayCol>
+    <rowCalMethod>SUM</rowCalMethod>
+    <colCalMethod>SUM</colCalMethod>
+    <reportTitle>交叉报表</reportTitle>
+    <note></note>
+</crossReportVO>

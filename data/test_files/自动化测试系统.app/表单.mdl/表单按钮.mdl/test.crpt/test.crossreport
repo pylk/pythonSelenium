@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<crossReportVO id="cf7fee98-a4fe-472f-a007-445b7ee6c4bf">
+    <name>test</name>
+    <parentId>11e7-6616-260fe9cd-9cdb-af6bc8266ed2</parentId>
+    <type>CustomizeReport</type>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <displayRow>false</displayRow>
+    <displayCol>false</displayCol>
+    <note>test</note>
+    <json>{"applicationid":"11e7-5f98-d7d66840-917f-e799edecb417","userid":"11e7-5f98-d799fb7f-917f-e799edecb417","viewLabel":"test","viewid":"11e7-6616-cfb0710f-9cdb-af6bc8266ed2","defaultChart":"PieChart","chart":["PieChart","BarChart","AreaChart","ColumnChart","LineChart","PlotChart"],"xColumn":{"label":"单行文本","value":"单行文本","fieldtype":"VALUE_TYPE_VARCHAR","fx":""},"yColumn":[{"label":"单行文本","value":"单行文本","fieldtype":"VALUE_TYPE_VARCHAR","fx":"sum"}]}</json>
+    <userid>null</userid>
+</crossReportVO>

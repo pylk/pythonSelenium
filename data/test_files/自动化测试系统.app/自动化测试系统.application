@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="11e7-5f98-d7d66840-917f-e799edecb417">
+    <name>自动化测试系统</name>
+    <description><![CDATA[obpm平台自动化测试系统，保存所有自动化测试用例数据。]]></description>
+    <orderNo>0</orderNo>
+    <datasourceId>11e7-5f99-378c8358-917f-e799edecb417</datasourceId>
+    <activated>true</activated>
+</application>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-65ff-3de1711a-8f1a-bfe936d3ae2a">
+    <name>流程历史控件</name>
+    <parentId>11e7-5f9f-cc816447-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[流程历史控件]]></description>
+    <multiLanguageLabel></multiLanguageLabel>
+    <type>00</type>
+    <opentarget>detail</opentarget>
+    <ico>{"icon":"/portal/H5/resource/images/icon_menu_default.png","icontype":"img"}</ico>
+    <superior>11e7-5f9f-cc816447-917f-e799edecb417</superior>
+    <linkName>流程历史控件</linkName>
+    <linkType>01</linkType>
+    <moduleid>11e7-6478-f8eb1b0f-9525-2f2f151b7063</moduleid>
+    <directory>portal</directory>
+    <actionContent><![CDATA[11e7-6945-6de78a07-8a83-bf38d96990bd]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>27</orderno>
+</resourceVO>

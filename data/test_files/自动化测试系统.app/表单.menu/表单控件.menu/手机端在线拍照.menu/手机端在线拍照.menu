@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceVO id="11e7-8eed-9f358f2e-bfc7-fd7b73250252">
+    <name>手机端在线拍照</name>
+    <parentId>11e7-5f9f-cc816447-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <description><![CDATA[手机端在线拍照]]></description>
+    <type>00</type>
+    <superior>11e7-5f9f-cc816447-917f-e799edecb417</superior>
+    <linkName>在线拍照_case001</linkName>
+    <linkType>01</linkType>
+    <moduleid>11e7-6705-1fee55fd-bb6a-ff15ffadffa1</moduleid>
+    <actionContent><![CDATA[11e7-8eed-94ca7971-bfc7-fd7b73250252]]></actionContent>
+    <queryString><![CDATA[[]]]></queryString>
+    <permissionType>public</permissionType>
+    <showType>0</showType>
+    <orderno>0</orderno>
+</resourceVO>

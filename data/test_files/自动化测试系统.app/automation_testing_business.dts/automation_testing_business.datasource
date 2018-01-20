@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataSource id="11e7-5f99-378c8358-917f-e799edecb417">
+    <name>automation_testing_business</name>
+    <parentId>11e7-5f98-d7d66840-917f-e799edecb417</parentId>
+    <applicationid>11e7-5f98-d7d66840-917f-e799edecb417</applicationid>
+    <useType>JDBC</useType>
+    <driverClass>com.mysql.jdbc.Driver</driverClass>
+    <url><![CDATA[jdbc:mysql://localhost:3307/obpm_automation_testing_business?useUnicode=true&characterEncoding=utf8&useSSL=false]]></url>
+    <username>root</username>
+    <password></password>
+    <dbType>4</dbType>
+    <poolsize>300</poolsize>
+    <timeout>3600</timeout>
+    <jndiName></jndiName>
+    <providerUrl></providerUrl>
+    <initialContextFactory></initialContextFactory>
+    <urlPkgPrefixes></urlPkgPrefixes>
+    <securityPrincipal></securityPrincipal>
+    <securityCredentials></securityCredentials>
+</dataSource>
